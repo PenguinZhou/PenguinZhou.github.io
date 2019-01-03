@@ -409,7 +409,7 @@ img {
 
 .widget-category ul li::before {
     content: '\f3fe';
-    font-family: "Ionicons";
+    font-family: "Ionicons", generic-family;
     position: absolute;
     left: -25px;
     top: 1px;
