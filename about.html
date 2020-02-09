@@ -4,11 +4,11 @@
 		<title>Zhenhui PENG</title>
 
 		<!-- import Vue.js -->
-		<script src="//vuejs.org/js/vue.min.js"></script>
+		<script src="js/vue.min.js"></script>
 		<!-- import stylesheet -->
-		<link rel="stylesheet" href="//unpkg.com/view-design/dist/styles/iview.css">
+		<link rel="stylesheet" href="css/iview.css">
 		<!-- import iView -->
-		<script src="//unpkg.com/view-design/dist/iview.min.js"></script>
+		<script src="js/iview.min.js"></script>
 
 		<!-- meta -->
 		<meta charset="UTF-8">
@@ -67,7 +67,13 @@
 				</div>
 			</header>
 		</div>
-
+		<!-- <div>
+			<List>
+				<ListItem>Chatbot Design </ListItem>
+				<ListItem>Human-Robot Interaction (HRI)</ListItem>
+				<ListItem>Natural Language Processing </ListItem>
+			</List>
+		</div> -->
 		<div class="content-body">
 			<div class="container">
 				<div class="row">
@@ -91,19 +97,14 @@
 								</td></tr></table>
 
 							<h2>Research interests</h2>
-								<List>
-									<ListItem>Chatbot Design </ListItem>
-									<ListItem>Human-Robot Interaction (HRI)</ListItem>
-									<ListItem>Natural Language Processing </ListItem>
-								</List>
-								<!-- <ul>
+								<ul>
 									<li>Chatbot Design </li>
 									<li>Human-Robot Interaction (HRI)</li>
 									<li>Natural Language Processing </li>
-								</ul> -->
+								</ul>
 
 							<h2>Publications</h2>
-							<ul>
+							<ul>	
 								<li><p><b>Zhenhui Peng</b>, Qingyu Guo, KaWing Tsang, and Xiaojuan Ma. 2020. <a href="docs/MepsBot.pdf">
 									Exploring the Effects of Technological Writing Assistance for Support Providers in Online Mental Health Community.</a> 
 									In <i>Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI 2020), Apirl 25-30, 2020, Honolulu, HI USA</i>. ACM, New York, NY, USA, 15 pages. 
@@ -182,6 +183,19 @@
 		</div>
 
 		<script src="js/script.js"></script>
-		
+		<script>
+			new Vue({
+				el: '#app',
+				data: {
+					// visible: false
+				},
+				methods: {
+					// show: function () {
+					//     this.visible = true;
+					// }
+				}
+			})
+		  </script>
 	</body>
 </html>
+
