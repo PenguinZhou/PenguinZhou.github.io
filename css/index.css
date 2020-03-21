@@ -1,0 +1,20 @@
+.meta-info{
+    font-size: 16px;
+    padding: 10px 0px 0px;
+}
+.biography{
+    font-size: 17px;
+}
+.news{
+    padding: -10px 0px 0px;
+}
+.paper-title{
+    font-weight: bold;
+    font-size: 15px;
+}
+.publication{
+    margin-bottom: 30px;
+}
+.education{
+    font-size: 15px;
+}
