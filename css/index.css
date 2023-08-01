@@ -3,7 +3,7 @@
     padding: 10px 0px 0px;
 }
 .biography{
-    font-size: 17px;
+    font-size: 18px;
 }
 .news{
     padding: -10px 0px 0px;
@@ -13,8 +13,17 @@
     font-size: 15px;
 }
 .publication{
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
-.education{
-    font-size: 15px;
+.course{
+    font-size: 18px;
+}
+.student{
+    font-size: 18px;
+}
+p {
+    font-size: 15px
+}
+li {
+    font-size: 16px
 }

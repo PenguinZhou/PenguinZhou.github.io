@@ -337,14 +337,14 @@ img {
 
 .widget {
     background: #fff;
-    padding: 30px 0 0;
+    padding: 5px 0 0;
 }
 
 .widget-title {
     font-size: 1.5em;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     line-height: 1.6;
-    padding: 10px 0 0;
+    padding: 0 0 0 0;
     font-weight: 400;
 }
 
@@ -386,7 +386,7 @@ img {
 
 .widget-archives ul li::before {
     content: '\f3f3';
-    font-family: "Ionicons";
+    /* font-family: "Ionicons"; */
     position: absolute;
     left: -25px;
     top: 1px;
