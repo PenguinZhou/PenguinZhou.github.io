@@ -1,983 +1,1064 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Zhenhui Peng</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="light" name="color-scheme"/>
+<meta content="#ffffff" name="theme-color"/>
+<meta content="Zhenhui Peng · Human-Computer Interaction, Social Computing and Human-AI Augmentation research." name="description"/>
+<title>Zhenhui Peng (彭振辉) | Academic Homepage</title>
+<link href="css/index.css" rel="stylesheet"/>
+<script defer="" src="js/script.js"></script>
 
-
-    <!-- import Vue.js -->
-    <script src="js/vue.min.js"></script>
-    <!-- import stylesheet -->
-    <!-- <link rel="stylesheet" href="css/iview.css"> -->
-    <!-- import iView -->
-    <script src="js/iview.min.js"></script>
-
-    <!-- meta -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="css/pace.css">
-    <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/jemdoc.css" type="text/css" />
-
-    <!-- js -->
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/pace.min.js"></script>
-    <script src="js/modernizr.custom.js"></script>
-
-    <style>
-        input[type="checkbox"] {
-            display: none;
-        }
-        input[type="checkbox"] + label {
-            cursor: pointer;
-        }
-        input[type="checkbox"] ~ ul {
-            display: none;
-        }
-        input[type="checkbox"]:checked ~ ul {
-            display: block;
-        }
-    </style>
 </head>
-
 <body>
-<div class="container">
-    <header id="site-header">
-        <div class="row">
-            <div class="col-md-4 col-sm-5 col-xs-8">
-                <div class="logo">
-                    <p>Zhenhui Peng (彭振辉)</p>
-                </div>
-            </div><!-- col-md-4 -->
-            <div class="col-md-8 col-sm-7 col-xs-4">
-                <nav class="main-nav" role="navigation">
-                    <div class="navbar-header">
-                        <button type="button" id="trigger-overlay" class="navbar-toggle">
-                            <span class="ion-navicon"></span>
-                        </button>
-                    </div>
-
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="cl-effect-11"><a href="#publication">Publications</a></li>
-                            <li class="cl-effect-11"><a href="#course">Courses</a></li>
-                            <li class="cl-effect-11"><a href="#student">Students</a></li>
-                            <!-- <li class="cl-effect-11"><a href="#talk">Talks</a></li> -->
-                            <li class="cl-effect-11"><a href="#service">Services</a></li>
-                            <li class="cl-effect-11"><a href="full-width.html">Blog</a></li>
-                            <!-- <li class="cl-effect-11"><a href="about.html">About</a></li> -->
-                            <!--<li class="cl-effect-11"><a href="contact.html" data-hover="联系">联系</a></li>-->
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
-                </nav>
-            </div><!-- col-md-8 -->
-        </div>
-    </header>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+<div class="shell header-inner">
+<a aria-label="Zhenhui Peng homepage" class="site-brand" href="#top">Zhenhui <span>Peng</span><span class="brand-cn"> · 彭振辉</span></a>
+<button aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation" class="nav-toggle" type="button">
+<span></span><span></span><span></span>
+</button>
+<nav aria-label="Main navigation" class="site-nav" id="primary-nav">
+<a href="#about">About</a>
+<a href="#news">News</a>
+<a href="#publication">Publications</a>
+<a href="#course">Teaching</a>
+<a href="#student">Students</a>
+<a href="#service">Service</a>
+<a href="full-width.html">Blog <span aria-hidden="true">↗</span></a>
+</nav>
 </div>
-
-<div class="content-body">
-    <div class="container">
-        <div class="row">
-            <aside class="col-md-3">
-                <div class="widget widget-category">
-                    <img src="img/me-d.jpg" style='height: 100%; width: 100%; margin-top: 20px; object-fit: contain'/>
-                </div>
-                <p style="font-size: 16px;margin-top: 15px;">
-                    <a href="mailto:pengzhh29@mail.sysu.edu.cn">Email</a> | 
-                    <a href="https://scholar.google.com/citations?user=Fa1yxnQAAAAJ&hl=zh-CN">Scholar</a> | 
-                    <a href="docs/Zhenhui_Peng_CV_202606.pdf">CV </a> | 
-                    <a href="docs/人机交互研究简介.pdf">Intro to HCI</a>
-                </p>
-                <div class="widget">
-                    <h3 class="widget-title">News</h3>
-                    
-                    <ul>
-                        <li>
-                            <a>September 2026:</a> First time as an subcommunity chair @ CHI 2027.
+</header>
+<main class="shell" id="main-content">
+<section aria-label="About and research interests" class="intro-grid" id="top">
+<aside class="profile-rail">
+<div class="hero-photo">
+<img alt="Portrait of Zhenhui Peng" height="282" onerror="this.style.display='none';this.parentNode.classList.add('photo-unavailable')" src="img/me-d.jpg" width="232"/>
+<span aria-hidden="true" class="photo-fallback">ZP</span>
+</div>
+<section aria-labelledby="news-title" class="news-panel" id="news">
+<h2 id="news-title">News</h2>
+<div aria-label="Latest news, scroll for older announcements" class="news-scroll" role="region" tabindex="0">
+<ul class="news-list"><li>
+<span class="news-date">September 2026:</span> First time as a subcommunity chair @ CHI 2027.
                         </li>
-                        <li>
-                            <a>August 2026:</a> CoNewsReader gets a <strong>Best Paper Honorable Mention</strong> award in CSCW 2026.
+<li>
+<span class="news-date">August 2026:</span> CoNewsReader gets a <strong>Best Paper Honorable Mention</strong> award in CSCW 2026.
                         </li>
-                        <li>
-                            <a>July 2026:</a> Two papers accepted by <strong>ICWSM 2027</strong>. Congrats to Xueer Lin et. al and Shenghan Tan et. al.!
+<li>
+<span class="news-date">July 2026:</span> Two papers accepted by <strong>ICWSM 2027</strong>. Congrats to Xueer Lin et. al and Shenghan Tan et. al.!
                         </li>
-                        <li>
-                            <a>June 2026:</a> A paper about video-based learning of teaching strategies is conditionally accepted by <strong>UIST 2026</strong>. Congrats to Haoxiang et. al! Thanks to Prof. Jionghao Lin from HKU! 
+<li>
+<span class="news-date">June 2026:</span> A paper about video-based learning of teaching strategies is conditionally accepted by <strong>UIST 2026</strong>. Congrats to Haoxiang et. al! Thanks to Prof. Jionghao Lin from HKU! 
                         </li>
-                        <li>
-                            <a>Mar 2026:</a> ConSearcher (member personas for conversational search in online communities) is finally accepted by <strong>DIS 2026</strong>. Congrats to Shiwei, Yuheng, and Xinyue! Thanks to Xingbo, Chuhan, Qingyu, and Longfei! 
+<li>
+<span class="news-date">Mar 2026:</span> ConSearcher (member personas for conversational search in online communities) is finally accepted by <strong>DIS 2026</strong>. Congrats to Shiwei, Yuheng, and Xinyue! Thanks to Xingbo, Chuhan, Qingyu, and Longfei! 
                         </li>
-                        <li>
-                            <a>Mar 2026:</a> CoNewsReader (critical news reading support) is finally accepted by <strong>CSCW 2026</strong>. Congrats to Kangyu, Guanzheng, Sizhe, and Hehai! Thanks to Qingyu, Dingdong, and Prof. Ma! 
+<li>
+<span class="news-date">Mar 2026:</span> CoNewsReader (critical news reading support) is finally accepted by <strong>CSCW 2026</strong>. Congrats to Kangyu, Guanzheng, Sizhe, and Hehai! Thanks to Qingyu, Dingdong, and Prof. Ma! 
                         </li>
-                        <li>
-                            <a>Mar 2026:</a> A co-authored paper (A review on AI-Infused Interactive Systems for Online Communities) is conditionally accepted by <strong>CSCW 2026</strong>. Thanks to Yuanhao and Prof. Ma's team in HKUST!
+<li>
+<span class="news-date">Mar 2026:</span> A co-authored paper (A review on AI-Infused Interactive Systems for Online Communities) is conditionally accepted by <strong>CSCW 2026</strong>. Thanks to Yuanhao and Prof. Ma's team in HKUST!
                         </li>
-                        <li>
-                            <a>Mar 2026:</a> A co-authored paper is accepted by <strong>IJHCI</strong>, finally! Thanks to Xiaozhu and the exchanging experiences in Tsinghua!
+<li>
+<span class="news-date">Mar 2026:</span> A co-authored paper is accepted by <strong>IJHCI</strong>, finally! Thanks to Xiaozhu and the exchanging experiences in Tsinghua!
                         </li>
-                        <li>
-                            <a>Feb 2026:</a> Two co-authored posters are accepted as <strong>CHI 2026 poster</strong>. Thanks to Haoxiang, Yiwei, and teams from Tsinghua and HKUST(GZ)! 
+<li>
+<span class="news-date">Feb 2026:</span> Two co-authored posters are accepted as <strong>CHI 2026 poster</strong>. Thanks to Haoxiang, Yiwei, and teams from Tsinghua and HKUST(GZ)! 
                         </li>
-                        <li>
-                            <a>Jan 2026:</a> InkIdeator for Chinese visual design is accepted by <strong>CHI 2026</strong>. Congrats to Shiwei and other students! Thanks to Prof. Wei Zeng and Prof. Xiaojuan Ma! 
+<li>
+<span class="news-date">Jan 2026:</span> InkIdeator for Chinese visual design is accepted by <strong>CHI 2026</strong>. Congrats to Shiwei and other students! Thanks to Prof. Wei Zeng and Prof. Xiaojuan Ma! 
                         </li>
-                    </ul>
-                    <input type="checkbox" id="news_year">
-                        <label for="news_year" style="font-size: 18px;"><a>Before 2026 &darr;</a></label>
-                        <ul>
-                            <li>
-                                <a>Nov 2025:</a> CanAnswer for community-powered health knowledge acqusiition is presented in ICHEC 2025. Thanks to Yiwei, Zhiqing, Xiucheng, and other collaborators!
+<li>
+<span class="news-date">Nov 2025:</span> CanAnswer for community-powered health knowledge acqusiition is presented in ICHEC 2025. Thanks to Yiwei, Zhiqing, Xiucheng, and other collaborators!
                             </li>
-                            <li>
-                                <a>2025/10/06:</a> MentalImager got an <strong>Honorable Mention</strong> Award in CSCW 2025! 
+<li>
+<span class="news-date">2025/10/06:</span> MentalImager got an <strong>Honorable Mention</strong> Award in CSCW 2025! 
                             </li>
-                            <li>
-                                <a>2025/07/06:</a> Invited talk (生成式数据赋能的学习和教育支持应用研究) at <strong>ShanghaiTech University</strong>. Thanks Prof. Quan Li for invitation! 
+<li>
+<span class="news-date">2025/07/06:</span> Invited talk (生成式数据赋能的学习和教育支持应用研究) at <strong>ShanghaiTech University</strong>. Thanks Prof. Quan Li for invitation! 
                             </li>
-                            <li>
-                                <a>2025/07/05:</a> Invited talk (“与同伴交流学习”：在线社区内容建模与交互应用研究) at <strong>CCF CSCW & Social Computing 2025 summer school</strong> in Hangzhou. Thanks Prof. Yuling Sun from Fudan University for invitation! 
+<li>
+<span class="news-date">2025/07/05:</span> Invited talk (“与同伴交流学习”：在线社区内容建模与交互应用研究) at <strong>CCF CSCW &amp; Social Computing 2025 summer school</strong> in Hangzhou. Thanks Prof. Yuling Sun from Fudan University for invitation! 
                             </li>
-                            <li>
-                                <a>2025/06/22:</a> One @<strong>IJHCI</strong> paper (conditionally accepted) about understanding and supporting beauty recommendation post creation. Congrats to Xueer and Xia.
+<li>
+<span class="news-date">2025/06/22:</span> One @<strong>IJHCI</strong> paper (conditionally accepted) about understanding and supporting beauty recommendation post creation. Congrats to Xueer and Xia.
                             </li>
-                            <li>
-                                <a>2025/06/19:</a> One @<strong>CSCW 2025 Poster</strong> about communication strategies in beauty videos. Thanks to Xueer, Chenyu, Yuhan, and Prof. Zhicong Lu.
+<li>
+<span class="news-date">2025/06/19:</span> One @<strong>CSCW 2025 Poster</strong> about communication strategies in beauty videos. Thanks to Xueer, Chenyu, Yuhan, and Prof. Zhicong Lu.
                             </li>
-                            <li>
-                                <a>2025/06/10:</a> One @<strong>CSCW 2025</strong> paper (conditionally accepted) about training critical thinking with online discussion. Congrats to the undergraduate team (Qiyu, Jianqiao, Jie, Junyu, Yihan) and Kangyu.
+<li>
+<span class="news-date">2025/06/10:</span> One @<strong>CSCW 2025</strong> paper (conditionally accepted) about training critical thinking with online discussion. Congrats to the undergraduate team (Qiyu, Jianqiao, Jie, Junyu, Yihan) and Kangyu.
                             </li>
-                            <li>
-                                <a>2025/02/13:</a> Two @<strong>CSCW 2025</strong> papers (one is about re-design of design community for learning purposes, the other is about GenAIs for offline art courses) conditionally accepted. Congrats to the undergraduate team (Xia, Xinyue, Weixian, Haojia, Yujun) and Zhiqing, Haoxiang et al.
+<li>
+<span class="news-date">2025/02/13:</span> Two @<strong>CSCW 2025</strong> papers (one is about re-design of design community for learning purposes, the other is about GenAIs for offline art courses) conditionally accepted. Congrats to the undergraduate team (Xia, Xinyue, Weixian, Haojia, Yujun) and Zhiqing, Haoxiang et al.
                             </li>
-                            <li>
-                                <a>2025/02/13:</a> Two co-author @<strong>CSCW 2025</strong> papers: one with Yuansong and Prof. Quan Li's team, the other with Qingyu and Prof. Xiaojuan Ma's team.
+<li>
+<span class="news-date">2025/02/13:</span> Two co-author @<strong>CSCW 2025</strong> papers: one with Yuansong and Prof. Quan Li's team, the other with Qingyu and Prof. Xiaojuan Ma's team.
                             </li>
-                            <li>
-                                <a>2025/01/17:</a> One @<strong>CHI 2025</strong> paper from my group about supporting ideation of interdisciplinary contexts for teaching Chinese literature. Congrats to Haoxiang! Thanks to Hao Yu, Changshuang Zhou, and Dr. Xueyang Wu.
+<li>
+<span class="news-date">2025/01/17:</span> One @<strong>CHI 2025</strong> paper from my group about supporting ideation of interdisciplinary contexts for teaching Chinese literature. Congrats to Haoxiang! Thanks to Hao Yu, Changshuang Zhou, and Dr. Xueyang Wu.
                             </li>
-                            <li>
-                                <a>2025/01/17:</a> Two co-author @<strong>CHI 2025</strong> papers with Prof. Xiaojuan Ma's team. Congrats to Dr. Shuai Ma, Ziqi, Qiaoyi, and Xiucheng.
+<li>
+<span class="news-date">2025/01/17:</span> Two co-author @<strong>CHI 2025</strong> papers with Prof. Xiaojuan Ma's team. Congrats to Dr. Shuai Ma, Ziqi, Qiaoyi, and Xiucheng.
                             </li>
-                            <li>
-                                <a>2024/11/23:</a> One @<strong>CSCW 2025</strong> about an information seeking support tool in online communities. Congrats to Shiwei! Thanks to Mingxiang and Prof. Chuhai Shi.
+<li>
+<span class="news-date">2024/11/23:</span> One @<strong>CSCW 2025</strong> about an information seeking support tool in online communities. Congrats to Shiwei! Thanks to Mingxiang and Prof. Chuhai Shi.
                             </li>
-                            <li>
-                                <a>2024/11/23:</a> Attend ChineseCHI 2024 in person with a full paper (Congrats to master student @Han Zhang) and two late-breaking work (Congrats to two undergraduate teams @Qiyu Pan et. al and @Zhendong He et. al)
+<li>
+<span class="news-date">2024/11/23:</span> Attend ChineseCHI 2024 in person with a full paper (Congrats to master student @Han Zhang) and two late-breaking work (Congrats to two undergraduate teams @Qiyu Pan et. al and @Zhendong He et. al)
                             </li>
-                            <li>
-                                <a>2024/11/12:</a> Present DesignQuizzer CSCW 2024 online
+<li>
+<span class="news-date">2024/11/12:</span> Present DesignQuizzer CSCW 2024 online
                             </li>
-                            <li>
-                                <a>2024/10/13:</a> Attend UIST 2024 in person
+<li>
+<span class="news-date">2024/10/13:</span> Attend UIST 2024 in person
                             </li>
-                            <li>
-                                <a>2024/09/21:</a> One @<strong>CSCW 2025</strong> about generated images for assisting mental health self-disclosure. Congrats to Han, Yuxiang, Jiaqi, Ryan, Taewook, Qingyu, and Shuailin.
+<li>
+<span class="news-date">2024/09/21:</span> One @<strong>CSCW 2025</strong> about generated images for assisting mental health self-disclosure. Congrats to Han, Yuxiang, Jiaqi, Ryan, Taewook, Qingyu, and Shuailin.
                             </li>
-                            <li>
-                                <a>2024/09/08:</a> Teaching "Human-Computer Interaction" for both master students and undergraduate students in Fall 2024. 
+<li>
+<span class="news-date">2024/09/08:</span> Teaching "Human-Computer Interaction" for both master students and undergraduate students in Fall 2024. 
                             </li>
-                            <li>
-                                <a>2024/08/21:</a> Join CCF HCI professional committee as an executive member (中国计算机学会人机交互专业委员会执行委员). 
+<li>
+<span class="news-date">2024/08/21:</span> Join CCF HCI professional committee as an executive member (中国计算机学会人机交互专业委员会执行委员). 
                             </li>
-                            <li>
-                                <a>2024/07/17:</a> One @<strong>MobileHCI 2024 Late-Breaking Work</strong> about a tool for analyzing usability of mobile apps based on screen recordings. Congrats to Xiucheng, Yixin, Qichang, Guanyi, Dr. Qianyao Xu, and Xiaozhu Hu. 
+<li>
+<span class="news-date">2024/07/17:</span> One @<strong>MobileHCI 2024 Late-Breaking Work</strong> about a tool for analyzing usability of mobile apps based on screen recordings. Congrats to Xiucheng, Yixin, Qichang, Guanyi, Dr. Qianyao Xu, and Xiaozhu Hu. 
                             </li>
-                            <li>
-                                <a>2024/07/17:</a> One @<strong>CSCW 2024 Poster</strong> about a personalized news reader with generated titles and summaries. Congrats to Zimo, Xichen, Dr. Xueyang Wu, Qiyu, and Dr. Kaixiang Mo. 
+<li>
+<span class="news-date">2024/07/17:</span> One @<strong>CSCW 2024 Poster</strong> about a personalized news reader with generated titles and summaries. Congrats to Zimo, Xichen, Dr. Xueyang Wu, Qiyu, and Dr. Kaixiang Mo. 
                             </li>
-                            <li>
-                                <a>2024/06/30:</a> Two @<strong>UIST 2024</strong> papers about LLMs for assisting teachers in lesson planning and generative conversational agents for proactive peer support. Congrats to Haoxiang, Tianjian, Guanzheng, Hongzheng, Yuheng, and Dr. Xingbo Wang. 
+<li>
+<span class="news-date">2024/06/30:</span> Two @<strong>UIST 2024</strong> papers about LLMs for assisting teachers in lesson planning and generative conversational agents for proactive peer support. Congrats to Haoxiang, Tianjian, Guanzheng, Hongzheng, Yuheng, and Dr. Xingbo Wang. 
                             </li>
-                            <li>
-                                <a>2024/04/18:</a> A @<strong>DIS 2024</strong> paper about generated images for vocabulary learning. Congrats to Qiaoyi, Siyu, Kaihui, Dr. Xingbo Wang, Junkai, and Prof. Xiaojuan Ma. 
+<li>
+<span class="news-date">2024/04/18:</span> A @<strong>DIS 2024</strong> paper about generated images for vocabulary learning. Congrats to Qiaoyi, Siyu, Kaihui, Dr. Xingbo Wang, Junkai, and Prof. Xiaojuan Ma. 
                             </li>
-                            <li>
-                                <a>2024/03/17:</a> A @<strong>ICWSM 2024</strong> paper about text-image posts and their received social support in an online grief community. Congrats to Shuailin, Shiwei, Tianjian, Han, and Qingyu. 
+<li>
+<span class="news-date">2024/03/17:</span> A @<strong>ICWSM 2024</strong> paper about text-image posts and their received social support in an online grief community. Congrats to Shuailin, Shiwei, Tianjian, Han, and Qingyu. 
                             </li>
-                            <li>
-                                <a>2024/03/01:</a> A co-author @<strong>CHI 2024 LBW</strong> paper about Generative AI's impact on online art communities, with Qingyu and Kangyu. 
+<li>
+<span class="news-date">2024/03/01:</span> A co-author @<strong>CHI 2024 LBW</strong> paper about Generative AI's impact on online art communities, with Qingyu and Kangyu. 
                             </li>
-                            <li>
-                                <a>2024/01/19:</a> A co-author @<strong>CHI 2024</strong> paper about the future of AI in project-based learning, with Chengbo Zheng and Prof. Xiaojuan Ma's team in HKUST and Kangyu.
+<li>
+<span class="news-date">2024/01/19:</span> A co-author @<strong>CHI 2024</strong> paper about the future of AI in project-based learning, with Chengbo Zheng and Prof. Xiaojuan Ma's team in HKUST and Kangyu.
                             </li>
-                            <li>
-                                <a>2023/12/14:</a> A co-author @<strong>IUI 2024</strong> paper about an interactive material screening system, with Prof. Quan Li's team in ShanghaiTech University and my student Qiushi Han.
+<li>
+<span class="news-date">2023/12/14:</span> A co-author @<strong>IUI 2024</strong> paper about an interactive material screening system, with Prof. Quan Li's team in ShanghaiTech University and my student Qiushi Han.
                             </li>
-                            <li>
-                                <a>2023/12/04:</a> Got a grant with 150000 RMB @Guangdong Provincial Natural Science Foundation - General Project.
+<li>
+<span class="news-date">2023/12/04:</span> Got a grant with 150000 RMB @Guangdong Provincial Natural Science Foundation - General Project.
                             </li>
-                            <li>
-                                <a>2023/11/12:</a> Attend UIST 2023 in SF in person. The listened talk and learned things are shared <a href="docs/人工智能前沿专题-UIST2023开会学习.pdf"> here </a>.
+<li>
+<span class="news-date">2023/11/12:</span> Attend UIST 2023 in SF in person. The listened talk and learned things are shared <a href="docs/人工智能前沿专题-UIST2023开会学习.pdf"> here </a>.
                             </li>
-                            <li>
-                                <a>2023/10/10:</a> One @<strong>ChineseCHI 2023 Late-Breaking Work</strong> about a LLM-powered chatbot for decision-making support in group chats. Congrats to Qiushi, Haoxiang, and Haitong.
+<li>
+<span class="news-date">2023/10/10:</span> One @<strong>ChineseCHI 2023 Late-Breaking Work</strong> about a LLM-powered chatbot for decision-making support in group chats. Congrats to Qiushi, Haoxiang, and Haitong.
                             </li>
-                            <li>
-                                <a>2023/09/19:</a> One @<strong>CSCW 2024</strong> paper about a chatbot trained on a designer forum can teach design concepts to newbies. Thanks Qiaoyi, Zhiyu, Prof. Xiaojuan Ma, and Prof. Antti Oulasvirta.
+<li>
+<span class="news-date">2023/09/19:</span> One @<strong>CSCW 2024</strong> paper about a chatbot trained on a designer forum can teach design concepts to newbies. Thanks Qiaoyi, Zhiyu, Prof. Xiaojuan Ma, and Prof. Antti Oulasvirta.
                             </li>
-                            <li>
-                                <a>2023/08/25:</a> Teaching "Data Structure and Algorithm", its lab sessions, and "Human-Computer Interaction" this semester.
+<li>
+<span class="news-date">2023/08/25:</span> Teaching "Data Structure and Algorithm", its lab sessions, and "Human-Computer Interaction" this semester.
                             </li>
-                            <li>
-                                <a>2023/08/08:</a> Two co-author papers with Prof. Quan Li's team in ShanghaiTech University. One is about leveraging song comments to amplify music listening experience @<strong>ChinaVis 2023</strong>. The other is about a training tool for writing paper's abstract @<strong>HHME/CHCI 2023</strong>.
+<li>
+<span class="news-date">2023/08/08:</span> Two co-author papers with Prof. Quan Li's team in ShanghaiTech University. One is about leveraging song comments to amplify music listening experience @<strong>ChinaVis 2023</strong>. The other is about a training tool for writing paper's abstract @<strong>HHME/CHCI 2023</strong>.
                             </li>
-                            <li>
-                                <a>2023/06/25:</a> Two @<strong>UIST 2023</strong> papers about learning support systems got conditionally accepted. Thanks to students in our department and collaborators in HKUST.
+<li>
+<span class="news-date">2023/06/25:</span> Two @<strong>UIST 2023</strong> papers about learning support systems got conditionally accepted. Thanks to students in our department and collaborators in HKUST.
                             </li>
-                            <li>
-                                <a>2023/03/01:</a> One co-author @<strong>CHI 2023</strong> paper about use engagement in online creative community. Thanks to Qingyu Guo and Prof. Xiaojuan Ma in HKUST.
+<li>
+<span class="news-date">2023/03/01:</span> One co-author @<strong>CHI 2023</strong> paper about use engagement in online creative community. Thanks to Qingyu Guo and Prof. Xiaojuan Ma in HKUST.
                             </li>
-                            <li>
-                                <a>2023/03/01:</a> One co-author CHI 2023 workshop paper with Ryan Louie and Taewook Kim in NorthWestern University. 
+<li>
+<span class="news-date">2023/03/01:</span> One co-author CHI 2023 workshop paper with Ryan Louie and Taewook Kim in NorthWestern University. 
                             </li>
-                            <li>
-                                <a>2023/02/18:</a> Teaching "Principles of Artificial Intelligence" and its lab sessions this semester. 
+<li>
+<span class="news-date">2023/02/18:</span> Teaching "Principles of Artificial Intelligence" and its lab sessions this semester. 
                             </li>
-                            <li>
-                                <a>2022/11/05:</a> Two ChineseCHI 2022 Late-Breaking Works. Congrats to my students. 
+<li>
+<span class="news-date">2022/11/05:</span> Two ChineseCHI 2022 Late-Breaking Works. Congrats to my students. 
                             </li>
-                            <li>
-                                <a>2022/09/10:</a> Get a grant @Young Scientists Fund of the National Natural Science Foundation of China.
+<li>
+<span class="news-date">2022/09/10:</span> Get a grant @Young Scientists Fund of the National Natural Science Foundation of China.
                             </li>
-                            <li>
-                                <a>2022/09/01:</a> Teaching "Data Structure and Algorithm" and its lab sessions this semester. 
+<li>
+<span class="news-date">2022/09/01:</span> Teaching "Data Structure and Algorithm" and its lab sessions this semester. 
                             </li>
-                            <li>
-                                <a>2022/07/21:</a> Our paper "CReBot: Exploring Interactive Question Prompts for Critical Paper Reading" is accepted by @<strong>IJHCS 2022</strong>. Thanks to Yuzhi Liu, Hanqi Zhou, Zuyu Xu, and Prof. Xiaojuan Ma.  
+<li>
+<span class="news-date">2022/07/21:</span> Our paper "CReBot: Exploring Interactive Question Prompts for Critical Paper Reading" is accepted by @<strong>IJHCS 2022</strong>. Thanks to Yuzhi Liu, Hanqi Zhou, Zuyu Xu, and Prof. Xiaojuan Ma.  
                             </li>
-                            <li>
-                                <a>2022/06/07:</a> A co-author paper "PromotionLens: Inspecting Promotion Strategies of Online E-commerce via Visual Analytics" is conditionally accepted by @<strong>VIS 2022</strong>. Thanks to Chenyang Zhang and Prof. Quan Li in ShanghaiTech University.  
+<li>
+<span class="news-date">2022/06/07:</span> A co-author paper "PromotionLens: Inspecting Promotion Strategies of Online E-commerce via Visual Analytics" is conditionally accepted by @<strong>VIS 2022</strong>. Thanks to Chenyang Zhang and Prof. Quan Li in ShanghaiTech University.  
                             </li>
-                            <li>
-                                <a>2022/05/22:</a> Two co-author papers, one about self-mockery chatbot in @<strong>DIS 2022</strong>, the other about a tool to support discovery of online QA platform in @<strong>CSCW 2022</strong>. Thanks to Chengzhong Liu and Prof. Xiaojuan Ma. in HKUST.  
+<li>
+<span class="news-date">2022/05/22:</span> Two co-author papers, one about self-mockery chatbot in @<strong>DIS 2022</strong>, the other about a tool to support discovery of online QA platform in @<strong>CSCW 2022</strong>. Thanks to Chengzhong Liu and Prof. Xiaojuan Ma. in HKUST.  
                             </li>
-                            <li>
-                                <a>2022/05/01:</a> A co-author paper about modeling viewers’ first impressions with online images in @<strong>CHI 2022</strong>. Thanks to Qingyu Guo and Prof. Xiaojuan Ma in HKUST.  
+<li>
+<span class="news-date">2022/05/01:</span> A co-author paper about modeling viewers’ first impressions with online images in @<strong>CHI 2022</strong>. Thanks to Qingyu Guo and Prof. Xiaojuan Ma in HKUST.  
                             </li>
-                            <li>
-                                <a>2022/02/17:</a> Teaching "Principles of Artificial Intelligence" and its lab sessions this semester.  
+<li>
+<span class="news-date">2022/02/17:</span> Teaching "Principles of Artificial Intelligence" and its lab sessions this semester.  
                             </li>
-                            <li>
-                                <a>2021/11/22:</a> Start working in Zhuhai city.  
+<li>
+<span class="news-date">2021/11/22:</span> Start working in Zhuhai city.  
                             </li>
-                            <li>
-                                <a>2021/10/28:</a> Finish my short but wonderful postdoc journey with Antti and fly back to China. 14+7 self-quarantine in Shanghai ~_~.  
+<li>
+<span class="news-date">2021/10/28:</span> Finish my short but wonderful postdoc journey with Antti and fly back to China. 14+7 self-quarantine in Shanghai ~_~.  
                             </li>
-                            <li>
-                                <a>2021/10/16:</a> A paper about desktop social VR user experience and design is presented as @<strong>ChineseCHI 2021 Poster</strong>. Thanks to Chuhan, and Prof. Xiaojuan Ma.  
+<li>
+<span class="news-date">2021/10/16:</span> A paper about desktop social VR user experience and design is presented as @<strong>ChineseCHI 2021 Poster</strong>. Thanks to Chuhan, and Prof. Xiaojuan Ma.  
                             </li>
-                            <li>
-                                <a>2021/10/16:</a> A co-author paper about user interaction patterns in mobile game app UI won best paper award in @<strong>ChineseCHI 2021</strong>. Thanks to Prof. Quan Li, Haipeng Zeng, and Xiaojuan Ma.  
+<li>
+<span class="news-date">2021/10/16:</span> A co-author paper about user interaction patterns in mobile game app UI won best paper award in @<strong>ChineseCHI 2021</strong>. Thanks to Prof. Quan Li, Haipeng Zeng, and Xiaojuan Ma.  
                             </li>
-                            <li>
-                                <a>2021/07/17:</a> A co-author paper about COVID-19 health rumor debunking in social media is accepted by @<strong>ICWSM 2022</strong>. Thanks to Wenjie, Prof. Diyi Yang, and Prof. Xiaojuan Ma.  
+<li>
+<span class="news-date">2021/07/17:</span> A co-author paper about COVID-19 health rumor debunking in social media is accepted by @<strong>ICWSM 2022</strong>. Thanks to Wenjie, Prof. Diyi Yang, and Prof. Xiaojuan Ma.  
                             </li>
-                            <li>
-                                <a>2021/05/30:</a> A co-author paper about designers' practices of mobile UI design example management is accepted by @<strong>MobileHCI 2021</strong>. Thanks to Ziming and the Tsinghua team.  
+<li>
+<span class="news-date">2021/05/30:</span> A co-author paper about designers' practices of mobile UI design example management is accepted by @<strong>MobileHCI 2021</strong>. Thanks to Ziming and the Tsinghua team.  
                             </li>
-                            <li>
-                                <a>2021/05/13:</a> Join CHI 2021 online with a paper presentation, Doctoral Consortium, and numerous wonderful talks! 
+<li>
+<span class="news-date">2021/05/13:</span> Join CHI 2021 online with a paper presentation, Doctoral Consortium, and numerous wonderful talks! 
                             </li>
-                            <li>
-                                <a>2021/04/07:</a> Start my postdoc journey with Prof. Antti Oulasvirta in Aalto University. 
+<li>
+<span class="news-date">2021/04/07:</span> Start my postdoc journey with Prof. Antti Oulasvirta in Aalto University. 
                             </li>
-                            <li>
-                                <a>2021/03/12:</a> Pass my thesis defense with minor correction. 
+<li>
+<span class="news-date">2021/03/12:</span> Pass my thesis defense with minor correction. 
                             </li>
-                            <li>
-                                <a>2021/02/14:</a> A co-author paper about effects of auto-insight recommendation is accepted by @<strong>ESIDA'21</strong> (IUI 2021 Workshops). Thanks to Quan Li. 
+<li>
+<span class="news-date">2021/02/14:</span> A co-author paper about effects of auto-insight recommendation is accepted by @<strong>ESIDA'21</strong> (IUI 2021 Workshops). Thanks to Quan Li. 
                             </li>
-                            <li>
-                                <a>2021/01/12:</a> Finish my wonderful visiting journey in the <a href="http://pi.cs.tsinghua.edu.cn/">Pervasive HCI Lab</a> in Tsinghua University. Thanks to Prof. Chun Yu and Dr. Yukang Yan.  
+<li>
+<span class="news-date">2021/01/12:</span> Finish my wonderful visiting journey in the <a href="http://pi.cs.tsinghua.edu.cn/">Pervasive HCI Lab</a> in Tsinghua University. Thanks to Prof. Chun Yu and Dr. Yukang Yan.  
                             </li>
-                            <li>
-                                <a>2020/12/23:</a> A co-author paper about emotional support chatbot in a pregnant community is accepted by @<strong>CSCW</strong>(2020 June submission). Congrats to Liuping, Dakuo, Prof. Ma, and Prof. Xiangmin Fan!
+<li>
+<span class="news-date">2020/12/23:</span> A co-author paper about emotional support chatbot in a pregnant community is accepted by @<strong>CSCW</strong>(2020 June submission). Congrats to Liuping, Dakuo, Prof. Ma, and Prof. Xiangmin Fan!
                             </li>
-                            <li>
-                                <a>2020/12/14:</a> Pass my thesis proposal defense. 
+<li>
+<span class="news-date">2020/12/14:</span> Pass my thesis proposal defense. 
                             </li>
-                            <li>
-                                <a>2020/12/13:</a> Our paper "Effects of Support-Seekers' Community Knowledge on Their Expressed Satisfaction with the Received Comments in Mental Health Communities" is conditionally accepted by <strong>CHI 2021</strong>. Thanks to Prof. Xiaojuan Ma and Prof. Diyi Yang. 
+<li>
+<span class="news-date">2020/12/13:</span> Our paper "Effects of Support-Seekers' Community Knowledge on Their Expressed Satisfaction with the Received Comments in Mental Health Communities" is conditionally accepted by <strong>CHI 2021</strong>. Thanks to Prof. Xiaojuan Ma and Prof. Diyi Yang. 
                             </li>
-                            <li>
-                                <a>2020/12/08:</a> My thesis topic about intelligent agent's manner is accepted by @<strong>CHI 2021 Doctoral Consortium</strong>. 
+<li>
+<span class="news-date">2020/12/08:</span> My thesis topic about intelligent agent's manner is accepted by @<strong>CHI 2021 Doctoral Consortium</strong>. 
                             </li>
-                            <li>
-                                <a>2020/04/24:</a> A co-authored paper "Visual Analysis of the Traffic Reimbursement Data for the Overtime" 
+<li>
+<span class="news-date">2020/04/24:</span> A co-authored paper "Visual Analysis of the Traffic Reimbursement Data for the Overtime" 
                                 with Qiangqiang Liu in Webank team has been accepted as part of the EuroVis 2020 poster session@<strong>EuroVis 2020</strong>. 
                             </li>
-                            <li>
-                                <a>2020/02/27:</a> A co-authored paper "Friend Network as Gatekeeper: A Study of WeChat Users' Consumption of Friend-Curated Contents" 
+<li>
+<span class="news-date">2020/02/27:</span> A co-authored paper "Friend Network as Gatekeeper: A Study of WeChat Users' Consumption of Friend-Curated Contents" 
                                 with Quan Li in Webank team has been accepted as part of the paper session in Chinese CHI 2020 @<strong>ChCHI 2020</strong>. 
                             </li>
-                            <li>
-                                <a>2020/02/08:</a> Our paper "Understanding User Perceptions of
+<li>
+<span class="news-date">2020/02/08:</span> Our paper "Understanding User Perceptions of
                                 Robot's Delay, Voice Quality-Speed
                                 Trade-off and GUI during Conversation" with Webank Team has been accepted @<strong>CHI'20 LBW</strong>. 
                             </li>
-                            <li>
-                                <a>2019/12/09:</a> Our paper "Exploring the Effects of Technological Writing Assistance for Support Providers in Online Mental Health Community" has been conditionally accepted @ <strong>CHI'20</strong>. 
+<li>
+<span class="news-date">2019/12/09:</span> Our paper "Exploring the Effects of Technological Writing Assistance for Support Providers in Online Mental Health Community" has been conditionally accepted @ <strong>CHI'20</strong>. 
                             </li>
-                            <li>
-                                <a>2019/09/20:</a> My PQE paper "A survey on construction and enhancement methods in service chatbots design" has been accepted @<strong>CCF Transactions on Pervasive Computing and Interaction</strong>. 
+<li>
+<span class="news-date">2019/09/20:</span> My PQE paper "A survey on construction and enhancement methods in service chatbots design" has been accepted @<strong>CCF Transactions on Pervasive Computing and Interaction</strong>. 
                             </li>
-                            <li>
-                                <a>2019/08/12:</a> Our paper "GremoBot: Exploring Emotion Regulation in Group Chat" has been accepted @<strong>CSCW 2019 Interactive Posters</strong>. 
+<li>
+<span class="news-date">2019/08/12:</span> Our paper "GremoBot: Exploring Emotion Regulation in Group Chat" has been accepted @<strong>CSCW 2019 Interactive Posters</strong>. 
                             </li>
-                            <li>
-                                <a>2019/07/30:</a> A coauthored paper "Love in Lyrics: A Textual Manifestation of Affection in Social Messaging" has been accepted
+<li>
+<span class="news-date">2019/07/30:</span> A coauthored paper "Love in Lyrics: A Textual Manifestation of Affection in Social Messaging" has been accepted
                                 @<strong>CSCW 2019</strong>. Congrats to Tommy (Taewook Kim)!
                             </li>
-                            <li>
-                                <a>2019/05/07:</a> Present our paper in the CHI 2019. Slide is <a href="docs/PresentInCHI2019-Zhenhui-16-9.pdf">
-                                    <font color="blue"><u>here</u></font></a>.
+<li>
+<span class="news-date">2019/05/07:</span> Present our paper in the CHI 2019. Slide is <a href="docs/PresentInCHI2019-Zhenhui-16-9.pdf">
+<font color="blue"><u>here</u></font></a>.
                             </li>
-                            <li>
-                                <a>2018/12/11</a> Our paper "Design and Evaluation of Service Robot's Proactivity in Decision Making Support Process" gets conditionally accepted by @<strong>CHI 2019</strong>, a top conference in the field of HCI! 
-                            </li>
-                        </ul>
-                </div>
-            </aside>
-            <main class="col-md-9">
-                <!-- <h3 class="widget-title">Biography</h3> -->
-                <div class="biography">
-                    <p style="font-size: 18px;"> 
-                        I am an associate professor at <a href="http://sai.sysu.edu.cn/">School of Artificial Intelligence, Sun Yat-sen University</a>. 
-                        I received my Ph.D. at the 
-                        <a href="https://www.cse.ust.hk/"> Department of Computer Science and Engineering</a>, 
+<li>
+<span class="news-date">2018/12/11</span> Our paper "Design and Evaluation of Service Robot's Proactivity in Decision Making Support Process" gets conditionally accepted by @<strong>CHI 2019</strong>, a top conference in the field of HCI! 
+                            </li></ul>
+</div>
+</section>
+</aside>
+<div class="profile-main" id="about">
+<div class="bio-text">
+<p style="font-size: 18px;"> 
+                        Zhenhui Peng is currently an Associate Professor at the <a href="http://sai.sysu.edu.cn/">School of Artificial Intelligence, Sun Yat-sen University</a>. 
+                        He received his Ph.D. from the 
+                        <a href="https://www.cse.ust.hk/">Department of Computer Science and Engineering</a> at the
                         <a href="http://www.ust.hk/">Hong Kong University of Science and Technology</a>, 
-                        where my supervisor is Prof. <a href="https://www.cse.ust.hk/~mxj/">Xiaojuan Ma</a>. 
-                        I had a wonderful short postdoctoral experience with <a href="http://users.comnet.aalto.fi/oulasvir/">Prof. Antti Oulasvirta</a>
+                        under the supervision of Prof. <a href="https://www.cse.ust.hk/~mxj/">Xiaojuan Ma</a>. 
+                        He also had a wonderful short-term postdoctoral experience with Prof. <a href="http://users.comnet.aalto.fi/oulasvir/">Antti Oulasvirta</a>
                         at <a href="https://www.aalto.fi/en">Aalto University</a>.
-                        I obtained my bachelor's degree at ESE from Nanjing University. 
+                        He received his bachelor's degree at ESE from Nanjing University. 
 
                         <!-- Zhenhui leads the <strong>HaiA (Human-AI Augmentation) lab</strong>, which aims at augmenting human intelligence in higher-order thinking activities (e.g., critical/creative thinking, decision making, problem solving) with user-generated content (e.g., posts and comments on social media) and AI-generated content. 
                         The application domains include language learning, art education, mental health peer support, news/paper reading, and so on.  -->
-                        <!-- His team develops various types of user interfaces, such as conversational agents, community pages, writing assistants, and visualization tools.    -->
-                        <!-- His research group focuses on Augmented Intelligence, which aims at improving human's task performance and ability using HCI and AI approaches. 
+<!-- His team develops various types of user interfaces, such as conversational agents, community pages, writing assistants, and visualization tools.    -->
+<!-- His research group focuses on Augmented Intelligence, which aims at improving human's task performance and ability using HCI and AI approaches. 
                         To achieve this goal, his group runs projects on: 
                         1) understanding what factors affect human's needs and behaviors via multi-modal modeling and analyses of user-generated content in online communities (e.g, about mental health, UI design),
                         2) facilitating human's task completion (e.g., critical reading, stress management) via engaging computer systems (e.g., chatbot, visualization), and
                         3) tutoring human knowledge and skills (e.g., vocabulary) via theory-based interaction design and AI-generative techniques.  -->
-                        <!-- Human-Computer Interaction (HCI) and its intersection with Artificial Intelligence. -->
-                        <!-- His onging projects include:  
+<!-- Human-Computer Interaction (HCI) and its intersection with Artificial Intelligence. -->
+<!-- His onging projects include:  
                         1) AI-powered (e.g., NLP, CV) interactive tools to address users' needs in various tasks (e.g., decision-making, problem-solving, critical thinking, creativity),
 			            2) leveraging AI approaches to understand and assist users in online communities (e.g., about mental health, UI design),
                         and 3) developing intelligent systems in educational scenarios (e.g., vocabulary learning, paper reading, visual design). -->
-                        <!-- I welcome all collaboration opportunities from both academies and industries. -->
-                        <!-- Contact me via <a href="mailto:zpengab@connect.ust.hk">zpengab@connect.ust.hk</a> -->
-                    </p>
-                    <!-- <p style='color:rgb(202, 3, 3); font-size: 18px; padding-top: 6px;'>
-                        I am open to collaboration with academics and industries. Please check my research and email me if there is any opportunity for our collaboration! -->
-                         <!-- postdocs, undergraduate/graduate students, visiting interns, and scholars.  -->
-                        <!-- Please send me your CV if you are interested in these topics or have any question. -->
-                        <!-- 我2026年秋季入学的硕士研究生还有一个名额，欢迎邮件联系。 -->
-                        <!-- 我有与本科生（可先看<a href="docs/人机交互研究简介.pdf">Intro to HCI</a>了解该领域）和实习生丰富的科研合作经验和产出，多位学生前往境内外高校（如港科大、加州大学圣地亚哥分校、乔治亚理工学院、纽约大学、新国立、清华大学、浙江大学等）就读博士和硕士，欢迎交流合作！ -->
-                        <!-- 我的课题组也擅长研发各种人机交互界面，能帮助企业和政府部门增产增效，提升产品竞争力，欢迎联系合作！ -->
-                    <!-- </p> -->
-                </div>
-                <!-- <div class="widget widget-category">
-                    <img src="img/research_overview_20250310.png" style='height: 100%; width: 100%; margin-top: 20px; object-fit: contain'/>
-                </div> -->
-                <!-- <h3 class="widget-title">Research</h3> -->
-                    <p style="font-size: 18px;">
-                        My research focuses on the areas of <strong>Human-Computer Interaction</strong>, <strong>Social Computing</strong>, and <strong>Large Models</strong>. 
-                        I build computational models to understand complex human interaction in social media and develop novel user interfaces that augment human ability in higher-order thinking activities. 
-                        <!-- My work contributes to the design, development, and evaluation of interfaces that makes human stronger in the era of generative AIs. -->
-                        My HaiA (Human-AI Augmentation) lab mainly conduct three lines of research: 
-                        <ul>
-                            <li>
-                                <strong>Understanding People</strong>: Based on multimodal data in social media, we build computational models to understand people's mental health social support, argumentative behaviors, and so on.
-                                Such understandings contribute to the field of social science and inform the designs of user interfaces to address people's unmet needs.  
-                            </li>
-                            <li>
-                                <strong>Facilitate Users</strong>: We develop interfaces to ease the process and improve the outcome of higher-order thinking tasks, including information seeking, mental health problem solving, critical reading (e.g., scientific papers, news), creative designs (e.g., Chinese paintings), and lesson planning.
-                            </li>
-                            <li>
-                                <strong>Teach Users</strong>: We develop interfaces that teach users knowledge (e.g., second language, visual design) and skills (e.g., critical thinking, teaching), so that they can independently complete tasks without AI support next time.  
-                            </li>
-                        </ul>
-                    </p>
-                <div class="widget"><a name="publication"></a>
-                    <h3 class="widget-title">Publications</h3>
-                    <p>I primarily publish papers in HCI venues like CHI, CSCW, UIST, DIS, ICWSM, IJHCS, IJHCI, and ChineseCHI/ICHEC.</p>
-                    <p>
-                        <a href="#journal" style="border-bottom: 1px dotted;">Journal</a>
-                        <a href="#conference" style="border-bottom: 1px dotted;">Conference</a>
-                        <a href="#poster" style="border-bottom: 1px dotted;">Poster</a>
-                    </p>
-                    <p>
-                        &#8224;: corresponding author;	 *: equal contribution; <span style="text-decoration: underline;">Mentees are in underline</span>
-                    </p> 
-                    
-                    <div class="publication"> 
-                        <a name="journal"></a>
-                        <h4 style='color:#035486;'><strong>Journal</strong></h4>
-                        <p class="paper"> <span class="venue">CSCW 2026</span> <a href="https://yuanky123.github.io/"><span style="text-decoration: underline;">Kangyu Yuan</span></a>, <span style="text-decoration: underline;">Guanzheng Chen, Sizhe Liang, Hehai Lin</span>, Qingyu Guo, Dingdong Liu, Xiaojuan Ma, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2026. <strong>CoNewsReader: Supporting Comprehensive Understanding and Raising Critical Thoughts on Social Media News Through Comments</strong>.
-                            (<strong>CSCW 2026</strong>). <strong>Best Paper Honorable Mention Award</strong>
-                            <!-- <a href="docs/ijhci2025_beautyclicker.pdf">PDF</a> | -->
-                            <a href="https://dl.acm.org/doi/10.1145/3816913">ACM DL</a> |
-                            <a href="https://arxiv.org/abs/2604.27905">Arxiv</a> 
-                        </p>
-                        <p class="paper"> <span class="venue">CSCW 2026</span> Yuanhao Zhang, Xiaoyu Wang, Jiaxiong Hu, Ziqi Pan, <strong>Zhenhui Peng</strong>, and Xiaojuan Ma. 
-                            2026. <strong>Designing AI-Infused Interactive Systems for Online Communities: A Systematic Literature Review</strong>.
-                            (<strong>CSCW 2026</strong>). 
-                            <!-- <a href="docs/ijhci2025_beautyclicker.pdf">PDF</a> | -->
-                            <a href="https://dl.acm.org/doi/10.1145/3816920">ACM DL</a> |
-                            <a href="https://arxiv.org/abs/2509.23309">Arxiv</a> 
-                        </p> 
-                        <p class="paper"> <span class="venue">IJHCI 2026</span> Xiaozhu Hu, <strong>Zhenhui Peng</strong>, Xuhai Xu, Jinghe Cai, Xiaochen Liu, Mingming Fan, Tristan Braud, Chun Yu, and Yuanchun Shi. 
-                            2026. <strong>“I Do Not Dare to Try and Ask” Comprehensive Framing of Chinese Older Adults’ Difficulties and Corresponding Mental Barriers in Completing Smartphone Interaction Tasks</strong>.
-                            (<strong>IJHCI 2026</strong>). 
-                            <!-- <a href="docs/ijhci2025_beautyclicker.pdf">PDF</a> | -->
-                            <a href="https://www.tandfonline.com/doi/full/10.1080/10447318.2026.2672589">Publisher's link</a> |
-                            <!-- <a href="https://www.arxiv.org/abs/2506.16874">Arxiv</a>  -->
-                        </p>
-                        <p class="paper"> <span class="venue">IJHCI 2025</span> <span style="text-decoration: underline;">Xueer Lin, Xia Chen</span>, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2025. <strong>BeautyClicker: Modeling Viewers’ Click Intent of the Cover Image to Support Drafts of Beauty Product Promotion Posts</strong>.
-                            (<strong>IJHCI 2025</strong>). 
-                            <a href="docs/ijhci2025_beautyclicker.pdf">PDF</a> |
-                            <a href="https://www.tandfonline.com/doi/full/10.1080/10447318.2025.2531291">Publisher's link</a> |
-                            <!-- <a href="https://www.arxiv.org/abs/2506.16874">Arxiv</a>  -->
-                        </p>
-                        <p class="paper"> <span class="venue">CSCW 2025</span> <span style="text-decoration: underline;">Qiyu Pan*, Jianqiao Zeng*, Jie Wang*, Junyu Liu**, Yihan Qiu**</span>, Kangyu Yuan, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2025. <strong>AMQuestioner: Training Critical Thinking with Question-Driven Interactive Argument Maps in Online Discussion</strong>.
-                            (<strong>CSCW 2025</strong>). 
-                            <a href="docs/cscw2025_amquestioner.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3757551">ACM</a> |
-                            <!-- <a href="https://www.arxiv.org/abs/2506.16874">Arxiv</a>  -->
-                        </p>
-                        <p class="paper"> <span class="venue">CSCW 2025</span> <span style="text-decoration: underline;"><a href="https://www.zhiqingwang.me/">Zhiqing Wang</a>, <a href="https://fanhaoxiang.top/">Haoxiang Fan</a>, Qiaoyi Chen, <a href="https://shionming.github.io/shiweiwu.github.io/">Shiwei Wu</a></span>, Yongqi Liang, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2025. <strong>Exploring the Usage of Generative AI for Group Project-Based Offline Art Courses in Elementary Schools</strong>.
-                            (<strong>CSCW 2025</strong>). 
-                            <a href="docs/cscw2025_askart.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3757476">ACM</a> |
-                            <a href="https://www.arxiv.org/abs/2506.16874">Arxiv</a> 
-                        </p>
-                        <p class="paper"> <span class="venue">CSCW 2025</span> <span style="text-decoration: underline;">Xia Chen*, Xinyue Chen*, Weixian Hu, Haojia Zheng, Yujun Qian</span>, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2025. <strong>Redesign of Online Design Communities: Facilitating Personalized Visual Design Learning with Structured Comments</strong>.
-                            (<strong>CSCW 2025</strong>). 
-                            <a href="docs/cscw2025_designlearner.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3757499">ACM</a> |
-                            <a href="https://arxiv.org/abs/2504.09827">Arxiv</a> 
-                        </p>
-
-                        <p class="paper"> <span class="venue">CSCW 2025</span> <span style="text-decoration: underline;"><a href="https://shionming.github.io/shiweiwu.github.io/">Shiwei Wu</a></span>, Mingxiang Wang, Chuhan Shi, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2025. <strong>ComViewer: An Interactive Visual Tool to Help Viewers Seek Social Support in Online Mental Health Communities</strong>.
-                            (<strong>CSCW 2025</strong>). 
-                            <a href="docs/cscw2025_comviewer.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3710904">ACM</a> |
-                            <a href="https://arxiv.org/abs/2411.19169">Arxiv </a> 
-                        </p>
-
-                        <p class="paper"> <span class="venue">CSCW 2025</span> <span style="text-decoration: underline;">Han Zhang, Jiaqi Zhang, Yuxiang Zhang</span>, Ryan Louie, Taewook Kim, Qingyu Guo, Shuailin Li, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2024. <strong>MentalImager: Exploring Generative Images for Assisting Support-Seekers’ Self-Disclosure in Online Mental Health Communities</strong>.
-                            (<strong>CSCW 2025</strong>) <strong>Best Paper Honorable Mention Award</strong>. 
-                            <a href="docs/cscw25_mentalimager.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3711031">ACM</a> |
-                            <a href="https://arxiv.org/abs/2409.14859">Arxiv</a> 
-                        </p>
-                        <p class="paper"> <span class="venue">CSCW 2025</span> Yuansong Xu, Shuhao Zhang, Yijie Fan, Shaohan Shi, <strong>Zhenhui Peng</strong>, and Quan Li. 
-                            2025. <strong>ReviseMate: Exploring Contextual Support for Digesting Academic Paper Reviews</strong>.
-                            (<strong>CSCW 2025</strong>). 
-                            <!-- <a href="docs/cscw25_conviewer_arxiv.pdf">PDF to appear</a> | -->
-                            <a href="https://dl.acm.org/doi/10.1145/3757502">ACM</a> 
-                            <!-- <a href="https://arxiv.org/abs/2411.19169">Arxiv to appear</a>  -->
-                        </p>
-                        <p class="paper"> <span class="venue">CSCW 2025</span> Qingyu Guo, Yuqi Zhang, <span style="text-decoration: underline;">Kangyu Yuan</span>, Changyang He, <strong>Zhenhui Peng</strong>, and Xiaojuan Ma. 
-                            2025. <strong>Exploring the Evolvement of User Engagement in Online Creative Community under the Surge of Generative AI: A Case Study of DeviantArt</strong>.
-                            (<strong>CSCW 2025</strong>). 
-                            <a href="docs/cscw2025_qingyu.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3757474">ACM</a> 
-                            <!-- <a href="https://arxiv.org/abs/2411.19169">Arxiv to appear</a>  -->
-                        </p>
-                        <p class="paper"> <span class="venue">CSCW 2024</span> <strong>Zhenhui Peng</strong>, <span style="text-decoration: underline;">Qiaoyi Chen, Zhiyu Shen</span>, Xiaojuan Ma, and Antti Oulasvirta. 
-                            2024. <strong>DesignQuizzer: A Community-Powered Conversational Agent for Learning Visual Design</strong>. 
-                            (<strong>CSCW '24</strong>). 
-                            <a href="docs/cscw24_designquizzer.pdf">PDF</a> |
-                            <a href="projects/designquizzer/index.html">Project Page</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3637321">ACM</a> 
-                        </p>
-                        <p class="paper"> <span class="venue">IJHCS 2022</span> <strong>Zhenhui Peng</strong>, Yuzhi Liu, Hanqi Zhou, Zuyu Xu, and Xiaojuan Ma. 2022. <strong>CReBot: Exploring interactive question prompts for critical paper reading</strong>. Int. J. Hum.-Comput. Stud. (<strong>IJHCS</strong>) 167, C (Nov 2022).
-                            <a href="docs/CReBot_IJHCS.pdf">PDF</a> |
-                            <a href="docs/CReBot_IJHCS_materials.zip">Supplimentary materials</a> |
-                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S1071581922001215">HTML</a> 
-                        </p> 
-                        <p class="paper"> <span class="venue">TVCG 2023</span> Chenyang Zhang, Xiyuan Wang, Chuyi Zhao, Yijing Ren, Tianyu Zhang, <strong>Zhenhui Peng</strong>, Xiaomeng Fan, Xiaojuan Ma, and Quan Li. 2022.
-                            <strong>PromotionLens: Inspecting Promotion Strategies of Online E-commerce via Visual Analytics</strong>. 
-                            In IEEE Transactions on Visualization and Computer Graphics (<strong>TVCG</strong>), vol. 29, no. 1, pp. 767-777, Jan. 2023.
-                            <a href="docs/vis22_quanli.pdf">PDF</a> |
-                            <a href="https://ieeexplore.ieee.org/document/9903289">ACM</a> 
-                        </p>
-                        <p class="paper"> <span class="venue">CSCW 2022</span> Chengzhong Liu, Zeyu Huang, Dingdong Liu, Shixu Zhou, <strong>Zhenhui Peng</strong>, and Xiaojuan Ma. 2022. 
-                            <strong>PlanHelper: Supporting Activity Plan Construction with Answer Posts in Community-based QA Platforms</strong>.
-                            Proc. ACM Hum.-Comput. Interact. 6, <strong>CSCW</strong>2, Article 454 (November 2022), 26 pages.
-                            <a href="docs/cscw_2022_planhelper.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/abs/10.1145/3555555">ACM</a> 
-                        </p>
-                        <p class="paper"> <span class="venue">CSCW 2021</span> Liuping Wang, Dakuo Wang, Feng Tian, <strong>Zhenhui Peng</strong>, Xiangmin Fan, Zhang Zhan, Shuai Ma, Yu Mo, Xiaojuan Ma, and Hongan Wang.
-                            2021. <strong>CASS: Towards Building a Social-Support Chatbot for Online Health Community</strong>. 
-                            Proc. ACM Hum.-Comput. Interact. 5, <strong>CSCW</strong>1, Article 9 (April 2021), 31 pages.
-                            <a href="https://arxiv.org/abs/2101.01583">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3449083">ACM</a>
-                        </p> 
-                        <p class="paper"> <span class="venue">IJSR 2020</span> Mingfei Sun, <strong>Zhenhui Peng</strong>, Meng Xia, Xiaojuan Ma.
-                            2020. <strong>Investigating the Effects of Robot Engagement Communication on Learning from Demonstration</strong>.
-                            International Journal of Social Robotics 14, 789 - 806.
-                            <a href="https://arxiv.org/abs/2005.01020">Arxiv</a> 
-                        </p>
-                        <p class="paper"> <span class="venue">TPCI 2020</span> <strong>Zhenhui Peng</strong> and Xiaojuan Ma. 
-                            2020. <strong>A survey on construction and enhancement methods in service chatbots design</strong>. 
-                            CCF Trans. Pervasive Comp. Interact. 1, 204–223.
-                            <a href="docs/Peng-Ma2019_Article_ASurveyOnConstructionAndEnhanc.pdf">PDF</a> |
-                            <a href="https://doi.org/10.1007/s42486-019-00012-3">HTML</a> 
-                        </p> 
-                        <p class="paper"> <span class="venue">CSCW 2019</span> Taewook Kim, Jungsoo Lee, <strong>Zhenhui Peng</strong>, and Xiaojuan Ma.
-                            2019. <strong>Love in Lyrics: An Exploration of Supporting Textual Manifestation of Affection in Social Messaging</strong>. 
-                            Proc. ACM Hum.-Comput. Interact. 3, <strong>CSCW</strong>, Article 79 (November 2019), 27 pages.
-                            <a href="docs/Lily_Camera_ready.pdf">PDF</a> |
-                            <a href="https://doi.org/10.1145/3359181">ACM</a> |
-                            <a href="https://hcikim.github.io/cscw2019/2019/09/23/lily.html">Project Page</a>
-                        </p> 
-
-                        <a name="conference"></a>
-                        <h4 style='color:#035486;'><strong>Conference</strong></h4>
-                        <p class="paper"><span class="venue">ICWSM 2027</span> <span style="text-decoration: underline;">Shenghan Tan, Daiang Jia, Chunghiu Kong</span>, Tianjian Liu, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2027. <strong>Associations Between Support-Seekers' Cross-Community Interactions and Their Engagement with Received Comments in Online Health Communities</strong>. 
-                            (<strong>ICWSM 2027</strong>). 
-                            <!-- <a href="docs/icwsm2024_grief_community.pdf">PDF</a> | -->
-                            <a href="https://arxiv.org/abs/2607.19655">Arxiv</a> |
-                            <!-- <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/31362">To Appear</a>  -->
-                        </p>
-                        <p class="paper"><span class="venue">ICWSM 2027</span> <span style="text-decoration: underline;">Xueer Lin, Chenyu Li</span>, Shuai Ma, <span style="text-decoration: underline;">Yuhan Lyu</span>, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2027. <strong>Understanding Fortunetelling with Large Language Models in China: User Practices, Perceptions, and Impacts on Beliefs and Decisions</strong>. 
-                            (<strong>ICWSM 2027</strong>). 
-                            <!-- <a href="docs/icwsm2024_grief_community.pdf">PDF</a> | -->
-                            <a href="https://arxiv.org/abs/2607.15626">Arxiv</a> |
-                            <!-- <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/31362">To Appear</a>  -->
-                        </p>
-                        <p class="paper"><span class="venue">UIST 2026</span> <span style="text-decoration: underline;"><a href="https://fanhaoxiang.top/">Haoxiang Fan</a></span>, Ding Lei, <span style="text-decoration: underline;">Zaihong Zheng, Jiale Li</span>, Jionghao Lin, Jian Yin, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2026. <strong>TeachUp: Facilitating Early-Stage Teachers to Learn Instructional Strategies from Classroom Videos with Reflective Support</strong>.
-                            (<strong>UIST 2026</strong>). 
-                            <a href="docs/uist26_teachup.pdf">PDF</a> |
-                            <!-- <a href="https://dl.acm.org/doi/10.1145/3654777.3676390">ACM</a> | -->
-                            <a href="https://arxiv.org/abs/2608.08535">Arxiv</a> 
-                        </p>
-                        <p class="paper"><span class="venue">DIS 2026</span> <span style="text-decoration: underline;"><a href="https://shionming.github.io/shiweiwu.github.io/">Shiwei Wu</a>, Xinyue Chen, Yuheng Liu</span>, Xingbo Wang, Qingyu Guo, Longfei Chen, Chuhan Shi, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2026. <strong>ConSearcher: Supporting Conversational Information Seeking in Online Communities with Member Personas</strong>.
-                            (<strong>DIS 2026</strong>). 
-                            <!-- <a href="docs/chi26_inkideator.pdf">PDF</a> | -->
-                            <a href="https://dl.acm.org/doi/10.1145/3800645.3813049">ACM</a> |
-                            <a href="https://arxiv.org/abs/2603.19747">Arxiv</a> 
-                        </p>
-                        <p class="paper"><span class="venue">CHI 2026</span> <span style="text-decoration: underline;"><a href="https://shionming.github.io/shiweiwu.github.io/">Shiwei Wu</a></span>, Ziyao Gao, <span style="text-decoration: underline;">Zhendong He, Zongtan He, Zhupeng Huang, Xia Chen</span>, Wei Zeng, Xiaojuan Ma, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2026. <strong>InkIdeator: Supporting Chinese-Style Visual Design Ideation via AI-Infused Exploration of Chinese Paintings</strong>.
-                            (<strong>CHI 2026</strong>). 
-                            <a href="docs/chi26_inkideator.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3772318.3791675">ACM</a> |
-                            <a href="https://arxiv.org/abs/2601.18193">Arxiv</a> 
-                        </p>
-                        <p class="paper"><span class="venue">ICHEC 2025</span><span style="text-decoration: underline;"><a href="https://kepler-24.github.io/yiweiyuan/">Yiwei Yuan</a>, Zhiqing Wang, Xiucheng Zhang, Yichao Luo</span>, Shuya Lin, Yang Bai, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2025. <strong>Exploring Community-Powered Conversational Agent for Health Knowledge Acquisition: A Case Study in Colorectal Cancer</strong>.
-                            (<strong> ICHEC 2025</strong>). 
-                            <!-- <a href="docs/chi25-litlinker.pdf">PDF</a> | -->
-                            <!-- <a href="https://dl.acm.org/doi/10.1145/3706598.3714111">ACM</a> | -->
-                            <a href="https://arxiv.org/abs/2512.09511">Arxiv</a> 
-                        </p>
-                        <p class="paper"><span class="venue">CHI 2025</span> <span style="text-decoration: underline;"><a href="https://fanhaoxiang.top/">Haoxiang Fan</a></span>, Changshuang Zhou*, <span style="text-decoration: underline;">Hao Yu*</span>, Xueyang Wu, Jiangyu Gu, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2025. <strong>LitLinker: Supporting the Ideation of Interdisciplinary Contexts with Large Language Models for Teaching Literature in Elementary Schools</strong>.
-                            (<strong>CHI 2025</strong>). 
-                            <a href="docs/chi25-litlinker.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3706598.3714111">ACM</a> |
-                            <a href="https://arxiv.org/abs/2502.16097">Arxiv</a> 
-                        </p>
-                        <p class="paper"><span class="venue">CHI 2025</span> Shuai Ma, <span style="text-decoration: underline;">Qiaoyi Chen</span>, Xinru Wang, Chengbo Zheng, <strong>Zhenhui Peng</strong>, Min Yin, and Xiaojuan Ma. 
-                            2025. <strong>Towards Human-AI Deliberation: Design and Evaluation of LLM-Empowered Deliberative AI for AI-Assisted Decision-Making</strong>.
-                            (<strong>CHI 2025 (Honorable Mention)</strong>). 
-                            <!-- <a href="docs/uist24lessonplanner.pdf">PDF to appear</a> | -->
-                            <a href="https://dl.acm.org/doi/10.1145/3706598.3713423">ACM</a> |
-                            <a href="https://arxiv.org/abs/2403.16812">Arxiv</a> 
-                        </p>
-                        <p class="paper"><span class="venue">CHI 2025</span> Ziqi Pan, <span style="text-decoration: underline;">Xiucheng Zhang</span>, Zisu Li, <strong>Zhenhui Peng</strong>, Mingming Fan, and Xiaojuan Ma. 
-                            2025. <strong>ACKnowledge: A Computational Framework for Human Compatible Affordance-based Interaction Planning in Real-world Contexts</strong>.
-                            (<strong>CHI 2025</strong>). 
-                            <!-- <a href="docs/uist24lessonplanner.pdf">PDF to appear</a> | -->
-                            <a href="https://dl.acm.org/doi/10.1145/3706598.3713791">ACM</a> 
-                            <!-- <a href="https://arxiv.org/abs/2408.01102">Arxiv</a>  -->
-                        </p>
-                        <p class="paper"><span class="venue">ChineseCHI 2024</span> <span style="text-decoration: underline;">Han Zhang</span>, Ka Wing Tsang and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2024. <strong>VChater: Exploring Generative Conversational Agents for Simulating Exposure Therapy to Reduce Social Anxiety</strong>.
-                            (<strong>ChineseCHI 2024</strong>). 
-                            <!-- <a href="docs/uist24lessonplanner.pdf">PDF to appear</a> | -->
-                            <!-- <a href="https://dl.acm.org/doi/10.1145/3654777.3676390">ACM to appear</a>  -->
-                            <a href="https://arxiv.org/abs/2506.03520">Arxiv</a> 
-                        </p>
-
-                        <p class="paper"><span class="venue">UIST 2024</span> <span style="text-decoration: underline;"><a href="https://fanhaoxiang.top/">Haoxiang Fan</a>, Guanzheng Chen</span>, Xingbo Wang, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2024. <strong>LessonPlanner: Assisting Novice Teachers to Prepare
-                                Pedagogy-Driven Lesson Plans with Large Language Models</strong>.
-                            (<strong>UIST 2024</strong>). 
-                            <a href="docs/uist24lessonplanner.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3654777.3676390">ACM</a> |
-                            <a href="https://arxiv.org/abs/2408.01102">Arxiv</a> 
-                        </p>
-
-                        <p class="paper"><span class="venue">UIST 2024</span> <span style="text-decoration: underline;">Tianjian Liu, Hongzheng Zhao*, Yuheng Liu*</span>, Xingbo Wang, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2024. <strong>ComPeer: A Generative Conversational Agent
-                                for Proactive Peer Support</strong>.
-                            (<strong>UIST 2024</strong>). 
-                            <a href="docs/uist24compeer.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3654777.3676430">ACM</a> |
-                            <a href="https://arxiv.org/abs/2407.18064">Arxiv</a> 
-                        </p>
-                        <p class="paper"><span class="venue">DIS 2024</span> <span style="text-decoration: underline;">Qiaoyi Chen, Siyu Liu, Kaihui Huang</span>, Xingbo Wang, Xiaojuan Ma, Junkai Zhu, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2024. <strong>RetAssist: Facilitating Vocabulary Learners with Generative Images in Story Retelling Practices</strong>. 
-                            (<strong>DIS 2024</strong>). 
-                            <a href="docs/dis24_retassist.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3643834.3661581">ACM</a> 
-                        </p>
-
-                        <p class="paper"><span class="venue">ICWSM 2024</span> <span style="text-decoration: underline;">Shuailin Li, <a href="https://shionming.github.io/shiweiwu.github.io/">Shiwei Wu</a>, Tianjian Liu, Han Zhang</span>, Qingyu Guo, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2024. <strong>Understanding the Features of Text-Image Posts and Their Received Social Support in Online Grief Support Communities</strong>. 
-                            (<strong>ICWSM 2024</strong>). 
-                            <a href="docs/icwsm2024_grief_community.pdf">PDF</a> |
-                            <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/31362">AAAI</a> 
-                        </p>
-                        <p class="paper"><span class="venue">CHI 2024</span> Chengbo Zheng, <span style="text-decoration: underline;">Kangyu Yuan</span>, Bingcan Guo, Reza Hadi Mogavi, <strong>Zhenhui Peng</strong>, Shuai Ma, and Xiaojuan Ma. 2024. 
-                            <strong>Charting the Future of AI in Project-Based Learning: A Co-Design Exploration with Students</strong>. 
-                            (<strong>CHI '24</strong>). 
-                            <a href="docs/CHI2024_AI_in_PBL.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/abs/10.1145/3613904.3642807">ACM</a> 
-                        </p>
-
-                        <p class="paper"><span class="venue">IUI 2024</span> Qianyu Liu, Haoran Jiang, Zihao Pan, <span style="text-decoration: underline;">Qiushi Han</span>, <strong>Zhenhui Peng</strong>, and Quan Li. 
-                            2024. <strong>BiasEye: A Bias-Aware Real-time Interactive Material Screening System for Impartial Candidate Assessment</strong>. 
-                            (<strong>IUI '24</strong>). 
-                            <a href="docs/IUI2024_MaterialScreen.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3640543.3645166">ACM</a> 
-                        </p>
-                        <p class="paper"><span class="venue">UIST 2023</span> <strong>Zhenhui Peng*</strong>, Xingbo Wang*, <span style="text-decoration: underline;">Qiushi Han</span>, Junkai Zhu, Xiaojuan Ma, and Huamin Qu. 
-                            2023. <strong>Storyfier: Exploring Vocabulary Learning Support with Text Generation Models</strong>. 
-                            (<strong>UIST '23</strong>). 
-                            <a href="docs/uist23_storyfier.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3586183.3606786">ACM</a>
-                        </p> 
-
-                        <p class="paper"><span class="venue">UIST 2023</span> <span style="text-decoration: underline;">Kangyu Yuan*, Hehai Lin*, Shilei Cao*</span>, <strong>Zhenhui Peng&#8224;</strong>, Qingyu Guo, and Xiaojuan Ma. 
-                            2023. <strong>CriTrainer: An Adaptive Training Tool for Critical Paper Reading</strong>. 
-                            (<strong>UIST '23</strong>). 
-                            <a href="docs/uist23-critrainer.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3586183.3606816">ACM</a> |
-                            <a href="https://www.youtube.com/watch?v=m3MKh457m8A">Video preview</a>
-                        </p> 
-                        <p class="paper"><span class="venue">CHCI 2023</span> Chen Cheng, Ziang Li, <strong>Zhenhui Peng</strong>, and Quan Li. 
-                            2023. <strong>ALens: An Adaptive Domain-Oriented Abstract Writing Training Tool for Novice Researchers</strong>. 
-                            (<strong>HHME/CHCI 2023</strong>). 
-                            <a href="docs/CHCI2023_Alen.pdf">PDF</a> |
-                            <a href="https://arxiv.org/abs/2308.03989">Arxiv</a> 
-                        </p> 
-
-                        <p class="paper"><span class="venue">ChinaVis 2023</span> Longfei Chen, Qianyu Liu, Chenyang Zhang, Yangkun Huang, <strong>Zhenhui Peng</strong>, Haipeng Zeng, Zhida Sun, Xiaojuan Ma, and Quan Li. 
-                            2023. <strong>Amplifying the Music Listening Experience through Song Comments on Music Streaming Platforms</strong>. 
-                            (<strong>ChinaVis 2023</strong>). 
-                            <a href="docs/ChineseVis2023_music.pdf">PDF</a> |
-                            <a href="https://arxiv.org/abs/2308.04022">Arxiv</a> 
-                        </p> 
-                        <p class="paper"><span class="venue">CHI 2023</span> Qingyu Guo, Chao Zhang, Hanfang Lyu, <strong>Zhenhui Peng</strong>, and Xiaojuan Ma. 2023. <strong>What Makes Creators Engage with Online Critiques? Understanding the Role of Artifacts’ Creation Stage, Characteristics of Community Comments, and their Interactions</strong>. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (<strong>CHI '23</strong>). Association for Computing Machinery, New York, NY, USA, Article 556, 1–17. <a href="docs/CHI2023_OCC.pdf">PDF</a> | <a href="https://doi.org/10.1145/3544548.3581054">ACM</a> </p>
-                        <p class="paper"><span class="venue">DIS 2022</span> Chengzhong Liu, Shixu Zhou, Yuanhao Zhang, Dingdong Liu, <strong>Zhenhui Peng</strong>, and Xiaojuan Ma. 2022.
-                            <strong>Exploring the Effects of Self-Mockery to Improve Task-Oriented Chatbot's Social Intelligence</strong>.
-                            In Proceedings of the 2022 ACM Designing Interactive Systems Conference (<strong>DIS '22</strong>). Association for Computing Machinery, New York, NY, USA, 1315–1329.
-                            <a href="docs/dis22.pdf">PDF</a> |
-                            <a href="https://doi.org/10.1145/3532106.3533461">ACM</a> 
-                        </p> 
-                        <p class="paper"><span class="venue">CHI 2022</span> Qingyu Guo, Siyuan Zhou, Yifeng Wu, <strong>Zhenhui Peng</strong>, and Xiaojuan Ma. 2022.
-                            <strong>Understanding and Modeling Viewers’ First Impressions with Images in Online Medical Crowdfunding Campaigns</strong>.
-                            In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (<strong>CHI '22</strong>). Association for Computing Machinery, New York, NY, USA, Article 361, 1–20.
-                            <a href="docs/chi2022_qingyu.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/abs/10.1145/3491102.3501830">ACM</a> 
-                        </p> 
-
-                        <p class="paper"><span class="venue">ICWSM 2022</span> Wenjie Yang, Sitong Wang*, <strong>Zhenhui Peng*</strong>, Chuhan Shi, Xiaojuan Ma, and Diyi Yang. 
-                            2022. <strong>Know It to Defeat It: Exploring Health Rumor Characteristics and Debunking Efforts on Chinese Social Media during COVID-19 Crisis</strong>. 
-                            Proceedings of the International AAAI Conference on Web and Social Media (<strong>ICWSM</strong>). 16, 1 (May 2022), 1157-1168. 
-                            <a href="https://arxiv.org/abs/2109.12372">PDF</a> |
-                            <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/19366">AAAI</a> 
-                        </p> 
-                        <p class="paper"><span class="venue">ChineseCHI 2021</span> Quan Li, Haipeng Zeng, <strong>Zhenhui Peng</strong>, and Xiaojuan Ma. 2022. 
-                            <strong>Understanding Players’ Interaction Patterns with Mobile Game App UI via Visualizations</strong>. 
-                            In The Ninth International Symposium of Chinese CHI (<strong>Chinese CHI 2021</strong>). Association for Computing Machinery, New York, NY, USA, 9–21.
-                            <a href="docs/chchi2021.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3490355.3490357">ACM</a> 
-                        </p> 
-                        <p class="paper"><span class="venue">MobileHCI 2021</span> Ziming Wu*, Qianyao Xu*, Yiding Liu, <strong>Zhenhui Peng</strong>, Yingqing Xu, and Xiaojuan Ma.
-                            2021. <strong>Exploring Designers’ Practice of Online Example Management for Supporting Mobile UI Design</strong>. 
-                            In Proceedings of the 23rd International Conference on Mobile Human-Computer Interaction (<strong>MobileHCI '21</strong>). Association for Computing Machinery, New York, NY, USA, Article 44, 1–12.
-                            <a href="docs/MobileHCI2021.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3447526.3472048">ACM</a> 
-                        </p> 
-                        <p class="paper"><span class="venue">CHI 2021</span> <strong>Zhenhui Peng</strong>, Xiaojuan Ma, Diyi Yang, Ka Wing Tsang, and Qingyu Guo. 2021. 
-                            <strong>Effects of Support-Seekers’ Community Knowledge on Their Expressed Satisfaction with the Received Comments in Mental Health Communities</strong>. 
-                            In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (<strong>CHI '21</strong>). Association for Computing Machinery, New York, NY, USA, Article 536, 1–12.
-                            <a href="docs/chi2021_mental_health.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/abs/10.1145/3411764.3445446">ACM</a> |
-                            <a href="projects/satisfaction_mental_health/Sought_support_rating_scheme.pdf">Rating Scheme for Sought Support</a> |
-                            <a href="projects/satisfaction_mental_health/feature_sets_for_satisfaction_and_sought_support_models.pdf">Features of Models</a> |
-                            <a href="projects/satisfaction_mental_health/source_codes.zip">Source Code of Models</a>
-                        </p>
-                        <p class="paper"><span class="venue">CHI 2020</span> <strong>Zhenhui Peng</strong>, Qingyu Guo, Ka Wing Tsang, and Xiaojuan Ma. 
-                            2020. <strong>Exploring the Effects of Technological Writing Assistance for Support Providers in Online Mental Health Community</strong>. 
-                            In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (<strong>CHI '20</strong>). Association for Computing Machinery, New York, NY, USA, 1–15.
-                            <a href="docs/MepsBot.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376695">ACM</a> |
-                            <a href="projects/mepsbot/mepsbot.html">Project Page</a>
-                        </p> 
-                        <p class="paper"><span class="venue">ChineseCHI 2020</span> Quan Li, <strong>Zhenhui Peng</strong>, Haipeng Zeng, Qiaoan Chen, Lingling Yi, Ziming Wu, Xiaojuan Ma, and Tianjian Chen.
-                            2020. <strong>Friend Network as Gatekeeper: A Study of WeChat Users’ Consumption of Friend-Curated Contents</strong>. 
-                            In The eighth International Workshop of Chinese CHI (<strong>Chinese CHI 2020</strong>). Association for Computing Machinery, New York, NY, USA, 21–31.
-                            <a href="docs/gatekeeper_wechat.pdf">PDF</a> | 
-                            <a href="https://dl.acm.org/doi/10.1145/3403676.3403679">ACM</a> 
-                            <!-- <a href="https://doi.org/10.1145/3313831.3376695">Project Page</a> -->
-                        </p> 
-                        <p class="paper"><span class="venue">CHI 2019</span> <strong>Zhenhui Peng</strong>, Yunhwan Kwon, Jiaan Lu, Ziming Wu, and Xiaojuan Ma. 
-                            2019. <strong>Design and Evaluation of Service Robot's Proactivity in Decision-Making Support Proces</strong>s. 
-                            In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (<strong>CHI '19</strong>). Association for Computing Machinery, New York, NY, USA, Paper 98, 1–13.
-                            <a href="docs/Design_and_Evaluation_of_Service_Robots_Proactivity_in_Decision_Making_Support_Process.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3290605.3300328">HTML</a> 
-                        </p>
-
-                        <a name="poster"></a>
-                        <h4 style='color:#035486;'><strong>Poster, Late-Breaking Work, and Workshop</strong></h4>
-                        <p class="paper"><span class="venue">CHI 2026</span> <span style="text-decoration: underline;"><a href="https://fanhaoxiang.top/">Haoxiang Fan</a>, <a href="https://kepler-24.github.io/yiweiyuan/">Yiwei Yuan</a></span>, Chi Hsia, Chen Liang, and <strong>Zhenhui Peng</strong>. 
-                            2026. <strong>Toward Personalized Proactive Agents on Smart Glasses: From Explicit Context Policies to Implicit User Differences</strong>.
-                            (<strong>CHI 2026 Poster</strong>). 
-                            <!-- <a href="docs/cscw20.pdf">PDF</a> | -->
-                            <a href="https://dl.acm.org/doi/10.1145/3772363.3798509">ACM</a> 
-                        </p>
-                        <p class="paper"><span class="venue">CSCW 2025</span> <span style="text-decoration: underline;">Xueer Lin, Chenyu Li, Yuhan Lyu</span>, Zhicong Lu, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2025. <strong>“Here Comes the Makeup Tutorial You Asked For!”: Exploring Communication Strategies and Viewer Engagement in Beauty Videos on Rednote</strong>.
-                            (<strong>CSCW 2025 Poster</strong>). 
-                            <!-- <a href="docs/cscw24poster_summarflex.pdf">PDF to appear</a> | -->
-                            <a href="https://dl.acm.org/doi/10.1145/3715070.3749231">ACM</a> 
-                        </p>
-                        <p class="paper"><span class="venue">ChineseCHI 2024</span> <span style="text-decoration: underline;">Zhendong He*, Zhupeng Huang, Yitong Xie, Feiyu Li, Zongtan He</span>, and <strong>Zhenhui Peng</strong>. 
-                            2024. <strong>A Dataset and BenchMark Models for Predicting Human Intentions Expressed in Text-Image Posts in Chinese Online Mental Health Communities</strong>.
-                            (<strong>ChineseCHI 2024 Late-Breaking Work</strong>). 
-                            <a href="docs/chchi2024-58.pdf">PDF</a> |
-                            <!-- <a href="https://dl.acm.org/doi/10.1145/3678884.3681854">ACM</a>  -->
-                        </p>
-                        <p class="paper"><span class="venue">CSCW 2024</span> <span style="text-decoration: underline;">Zimo Xia*, Xichen Sun*</span>, Xueyang Wu, <span style="text-decoration: underline;">Qiyu Pan</span>, Kaixiang Mo, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2024. <strong>SummarFlex: Exploring Personalized News Filtering and Reading with Query-Focused Hierarchical Summarization</strong>.
-                            (<strong>CSCW 2024 Poster</strong>). 
-                            <a href="docs/cscw24poster_summarflex.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3678884.3681854">ACM</a> 
-                        </p>
-
-                        <p class="paper"><span class="venue">MobileHCI 2024</span> <span style="text-decoration: underline;">Xiucheng Zhang, Yixin Zeng*, Qichang Li*</span>, Guanyi Chen, Qianyao Xu, Xiaozhu Hu, and <strong>Zhenhui Peng&#8224;</strong>. 
-                            2024. <strong>DesignWatch: Analyzing Users’ Operations of Mobile Apps Based on Screen Recordings</strong>.
-                            (<strong>MobileHCI 2024 Late-Breaking Work</strong>). 
-                            <a href="docs/mobilehc2024lbw.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3640471.3680231">ACM</a> 
-                        </p>
-                        <p class="paper"><span class="venue">CHI 2024</span> Qingyu Guo, <span style="text-decoration: underline;">Kangyu Yuan</span>, Changyang He, <strong>Zhenhui Peng</strong>, and Xiaojuan Ma.  
-                            2024. <strong>Exploring the Evolvement of Artwork Descriptions in Online Creative Community under the Surge of Generative AI: A Case Study of DeviantArt</strong>. 
-                            (<strong>CHI LBW '24</strong>). 
-                            <a href="docs/CHI2024LBW_GenAI_community.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/10.1145/3613905.3650851">ACM</a> 
-                        </p>
-                        
-                        <p class="paper"><span class="venue">ChineseCHI 2023</span> <span style="text-decoration: underline;">Qiushi Han, Haitong Chen, <a href="https://fanhaoxiang.top/">Haoxiang Fan</a></span>, <strong>Zhenhui Peng&#8224;</strong>. 
-                            2023. <strong>ReDBot: Exploring Conversational Recommendation for Decision-Making Support in Group Chats</strong>. 
-                            (<strong>ChineseCHI LBW '23</strong>). 
-                            <a href="docs/chinesechi23_RedBot.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/abs/10.1145/3629606.3629615">ACM</a> 
-                        </p>
-
-                        <p class="paper"><span class="venue">CHI 2023</span> Ryan Louie, Taewook Kim, and <strong>Zhenhui Peng</strong>. 2023 <strong>Rawal: A Reflection Assistant with Active Listening for Peer Support Chats</strong>. In CHI 2023 Workshop on Integrating Individual and Social Contexts into Self-Reflection Technologies. <a href="docs/CHI_workshop_rawal.pdf">PDF</a></p>
-                        <p class="paper"><span class="venue">ChineseCHI 2021</span> <strong>Zhenhui Peng</strong>, Chuhan Shi, and Xiaojuan Ma. 2022. 
-                            <strong>Exploring User Experience and Design Opportunities of Desktop Social Virtual Reality for Group Learning Activities</strong>. 
-                            In The Ninth International Symposium of Chinese CHI (<strong>Chinese CHI 2021</strong>). Association for Computing Machinery, New York, NY, USA, 105–111.
-                            <a href="docs/ChCHI2021_Social_VR.pdf">PDF</a> |
-                            <a href="https://dl.acm.org/doi/fullHtml/10.1145/3490355.3490367">ACM</a> 
-                        </p> 
-                        <p class="paper"><span class="venue">IUI 2021</span> Quan Li, Huanbin Lin, Chunfeng Tang, Xiguang Wei, <strong>Zhenhui Peng</strong>, Xiaojuan Ma, and Tianjian Chen. 
-                            2021. <strong>“Exploring the "Double-Edged Sword" Effect of Auto-Insight Recommendation in Exploratory Data Analysis</strong>.
-                            IUI Workshops. 
-                            <a href="IUI21WS-ESIDA.pdf">PDF</a> |
-                            <a href="https://ceur-ws.org/Vol-2903/IUI21WS-ESIDA-2.pdf">HTML</a> 
-                        </p>
-                        <p class="paper"><span class="venue">CHI 2020</span> <strong>Zhenhui Peng</strong>, Kaixiang Mo, Xiaogang Zhu, Junlin Chen, Zhijun Chen, Qian Xu and Xiaojuan Ma.
-                            2020. <strong>Understanding User Perceptions of Robot's Delay, Voice Quality-Speed Trade-off and GUI during Conversation</strong>. 
-                            In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (<strong>CHI EA '20</strong>). Association for Computing Machinery, New York, NY, USA, 1–8.
-                            <a href="docs/chi2020lbw_Xiaowei.pdf">PDF</a> |
-                            <a href="https://doi.org/10.1145/3334480.3382792">ACM</a> 
-                        </p> 
-                        <p class="paper"><span class="venue">EuroVis 2020</span> Qiangqiang Liu, Quan Li, Chunfeng Tang, Huanbin Lin, <strong>Zhenhui Peng</strong>, Zhiwei Li, and Tianjian Chen. 
-                            2020. <strong>Visual Analysis of Car-hailing Reimbursement Data for Overtime</strong>.
-                            EuroVis 2020 Posters.
-                            <a href="https://diglib.eg.org/handle/10.2312/eurp20201119">HTML</a> 
-                        </p> 
-                        <p class="paper"><span class="venue">CSCW 2019</span> <strong>Zhenhui Peng</strong>, Taewook Kim and Xiaojuan Ma.
-                            2019. <strong>GremoBot: Exploring Emotion Regulation in Group Chat</strong>. 
-                            In Conference Companion Publication of the 2019 on Computer Supported Cooperative Work and Social Computing (CSCW '19). Association for Computing Machinery, New York, NY, USA, 335–340.
-                            <a href="docs/GremoBot_Exploring_Emotion_Regulation_in_Group_Chat.pdf">PDF</a> |
-                            <a href="https://doi.org/10.1145/3311957.3359472">ACM</a> 
-                        </p> 
-                        <p class="paper"><span class="venue">ChineseCHI 2018</span> <strong>Zhenhui Peng</strong>, Jeehoon Yoo, Meng Xia, Sunghun Kim, and Xiaojuan Ma.
-                            2018. <strong>Exploring How Software Developers Work with Mention Bot in GitHub</strong>. 
-                            In Proceedings of the Sixth International Symposium of Chinese CHI (<strong>ChineseCHI '18</strong>). Association for Computing Machinery, New York, NY, USA, 152–155.
-                            <a href="docs/chinesechi-poster-camera-ready.pdf">PDF</a> |
-                            <a href="https://doi.org/10.1145/3202667.3202694">ACM</a> 
-                        </p> 
-                   </div>  
-                </div>
-                
-
-                <a name="course"></a>
-                <h3 class="widget-title">Courses</h3>
-                <div class="widget-archives">
-                    <ul>
-                        <li>
-                            <strong>Human-Computer Interaction</strong> (Fall 2024, Fall 2023, Fall 2022), <i>Postgraduate</i>
-                        </li>
-                        <li>
-                            <strong>Human-Computer Interaction Design</strong> (Fall 2025, Fall 2024), <i>Undergraduate</i>
-                        </li>
-                        <li>
-                            <strong>Principles of Artificial Intelligence and its lab sessions</strong> (Spring 2026, Spring 2025, Spring 2024, Spring 2023, Spring 2022), <i>Undergraduate</i>
-                        </li>
-                        <li>
-                            <strong>Data Structure and Algorithm and its lab sessions</strong> (Fall 2023, Fall 2022), <i>Undergraduate</i>
-                        </li>
-                    </ul>
-                    <!-- <p>
-                        Teaching Assistant at HKUST <a href="https://canvas.ust.hk/courses/29915">COMP 3711 "Design and Analysis of Algorithms"</a> (<i>2020 Spring</i>).
-                        <a href="https://www.cse.ust.hk/~mxj/page/COMP4461-201809.html">COMP 4461 "Human-Computer Interaction"</a>, (<i>2018 Fall, 2020 Fall</i>).
-                        <a href="https://course.cse.ust.hk/comp2611/">COMP 2611 "Computer Organization"</a> (<i>2018 Spring</i>)
-                    </p> -->
-                </div>
-
-               
-
-                <a name="student"></a>
-                <h3 class="widget-title">Students</h3> 
-                <div class="widget widget-archives news">
-                    <h4 style="color:#035486;">Current members</h4>
-                    <ul>
-                        <li>Huaqi Liao (Incoming master student, since fall 2027, from 中山大学)</li>
-                        <li>Jiachen Wang (Incoming master student, since fall 2027, from 中山大学)</li>
-                        <li>Peiyun Song (Master student, since fall 2026, from 中山大学)</li>
-                        <li>Zongtan He (Master student, since fall 2026, from 中山大学)</li>
-                        <li>Jingru Fan (Master student, since fall 2026, from 中国传媒大学)</li>
-                        <li>Le Chen (Master student, since fall 2025, from 北京化工大学)</li>
-                        <li>Xia Chen (Master student, since fall 2025, from 中山大学)</li>
-                        <li>Xueer Lin (Master student, since fall 2024, from 中山大学)</li>
-                        <li><a href="https://kepler-24.github.io/yiweiyuan/">Yiwei Yuan</a> (Master student, since fall 2024, from 中山大学)</li>
-                        <li>Pengpin Lin (Master student, since fall 2024, joined from SYSU CS)</li>
-                    </ul>
-                    <h4 style="color:#035486;">Past members</h4>
-                    <ul>
-                        <li><a href="https://shionming.github.io/shiweiwu.github.io/">Shiwei Wu</a> (Master student, 2023.06-2026.06, from 河北工业大学, now Ph.D. student @NUS, Intern @ Tsinghua Pervasive HCI Group)</li>
-                        <li><a href="https://fanhaoxiang.top/">Haoxiang Fan</a> (Master student, 2023.06-2026.06, from 暨南大学, now Ph.D. student @HKUST(GZ), Intern @ Tsinghua Pervasive HCI Group)</li>
-                        <li>Shuailin Li (Master student, since fall 2022, from 海南大学, Intern @ VIPS, Meituan, and Huawei, now job @ 百度)</li>
-                        <li>Han Zhang (Master student, since fall 2022, from 贵州大学, Intern @ ZHIPU AI, now job @ 同花顺)</li>
-                        <li>Qiushi Han (Master student, 2021 - 2024, from 福州大学), now @ 中国电信研究院(广州)</li>
-                        <li><a href="https://www.zhiqingwang.me/">Zhiqing Wang</a> (Research intern, 2024.05 - 2024.08, now puruing Ph.D.'s degree @ UCSD) </li> 
-                        <li>Tianze Xie (Research intern, 2022.04 - 2022.06, now pursuing Ph.D.'s degree @ SUSTech Immersive Design Group)</li>
-                        <li>Haitong Chen (Research intern, 2023.03 - 2023.09, now Software Development Engineer @ Amazon)</li>
-                        <li>Yuheng Liu (Undergraduate student, 2024.03 - 2026.05), now Ph.D. student @CityU HK</li>
-                        <li>Qiaoyi Chen (Undergraduate student, 2022.06 - 2024.06, now Ph.D. student @ HKUST HCI Lab)</li>
-                        <li>Kangyu Yuan (Undergraduate student, 2022.11 - 2024.06, now Ph.D. student @ HKUST HCI Lab)</li>
-                        <li>Shilei Cao (Undergraduate student, 2022.11 - 2023.06, now master student @ SYSU)</li>
-                        <li>Hehai Lin (Undergraduate student, 2022.11 - 2023.06, now Ph.D. student @ HKUST(GZ))</li>
-                        <li>Tianjian Liu (Undergraduate student, 2023.06 - 2024.11, now Ph.D. student @ HKUST(GZ))</li>
-                        <li>Guanzheng Chen (Undergraduate student, 2021.12 - 2024.06, now master student @ Zhejiang University)</li>
-                        <li>Chenghan Xie (Undergraduate student, 2021.12 - 2024.06, now master student @ HKU)</li>
-                        <li>Xinyue Chen (Undergraduate student, 2023.01 - 2024.09, now master student @ NUS)</li>
-                        <li>Xiucheng Zhang (Undergraduate student, 2023.11 - 2024.08, now master student @ NYU)</li>
-                        <li>Zimo Xia (Undergraduate student, since 2023.11 - 2024.08, now master student @ NUS)</li>
-                        <li>Qiyu Pan (Undergraduate student, since 2023.11 - 2024.10)</li>
-                        <li>I have also supervised many other undergraduate students in their thesis projects or research projects. These students went to good places 
-                            such as masters in Columbia University, HKUST, Peking University Shenzhen Graduate School, and SYSU</li>
-                    </ul>
-                    <!-- <h4>Supervised undergraduates</h4> -->
-                    <!-- <ul>
-                        <li>Team projects (2023.12 - ): Xuan Lin et al. (class of 2021), Xiucheng Zhang et al. (2021, one paper in MobileHCI 2024 LBW), Tianjian Zhang et al. (2021, one paper in UIST 2024), Zhendong Ke et al. (2022), Qiyu Pan et al. (2022) </li>
-                        <li>Zimo Xia, Xichen Sun, Qiyu Pan (2023.07 - , class of 2021/2022, team project) - one paper in CSCW 2024 Poster</li>
-                        <li>Yunjun Qian, Haojia Zheng, Xia Chen, Xinyue Chen, Weixin Hu (2022.11 - , class of 2021, team project) - one paper under review</li>
-                        <li>Qiaoyi Chen (now Ph.D. student in HKUST CS), Kaihui Huang, Siyu Liu (now master student in SYSU CS) (2022.11 - 2024.04, class of 2020, team project) - one paper in DIS 2024</li>
-                        <li>Shilei Cao (now master student in HKUST AI), Hehai Lin, Kangyu Yuan (now Ph.D. student in HKUST CS) (2022.11 - 2023.10, class of 2020, team project) - one paper in UIST 2023</li>
-                        <li>Guanzheng Chen (now master student in ZJU), Chenghan Xie, Qijie Lu, Yifei Huang, Linxuan Miao (2021.12 - 2022.11, class of 2020, team project) - one paper in ChineseCHI 2022 LBW</li>
-                        <li>Xueer Lin, Shun Wang, Jiao Wang, Jiaxin Cheng, Kexin Song (2021.12 - 2022.11, class of 2020, team project) - one paper in ChineseCHI 2022 LBW</li>
-                        <li>Qiaoyi Chen, Zhiyu Shen (now master student in SYSU CS) (2022.06 - 2022.09, class of 2020, summer intern) - one paper in CSCW 2024</li>
-                    </ul> -->
-                </div>
-
-                <!-- <a name="talk"></a>
-                <h3 class="widget-title">Invited Talks</h3>
-                <div class="widget widget-archives news">
-                    <ul>
-                        <li>
-                            Associate Chair of ACM Conference on Human Factors in Computing Systems (CHI) 2025, 2024, 2023
-                        </li>
-                        
-                    </ul>
-                    
-                </div> -->
-
-                <a name="service"></a>
-                <h3 class="widget-title">Academic Services</h3>
-                <div class="widget widget-archives news">
-                    <ul>
-                        <li>
-                            Subcommunity Chair of ACM Conference on Human Factors in Computing Systems (CHI) 2027
-                        </li>
-                        <li>
-                            Associate Chair of ACM Conference on Human Factors in Computing Systems (CHI) 2026, 2025, 2024, 2023
-                        </li>
-                        <li>
-                            Associate Chair of ACM Symposium on User Interface Software and Technology (UIST) 2025
-                        </li>
-                        <li>
-                            Associate Chair of ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW) 2024, 2023
-                        </li>
-                        <li>
-                            Reviewer of Transactions on Computer-Human Interaction (TOCHI), IJHCI, CHI 2022&2021&2020&2018&, CSCW 2025&2022&2021&2020, UIST 2021, WWW 2020, CHILBW 2024&2020, ChineseCHI 2022
-                        </li>
-                    </ul>
-                    
-                </div>
-
-                <!-- <h3 class="widget-title">Grants & Awards</h3>
-                <div class="education">
-		            <p>广东省自然科学基金 - 面上项目 Guangdong Provincial Natural Science Foundation - General Project, 2024.01 - 2026.12</p>
-                    <p>国家自然科学基金委青年科学基金 Young Scientists Fund of the National Natural Science Foundation of China (Grant No. 62202509), 2023.01 - 2025.12</p>
-                    <p>Postgraduate Scholarship in the HKUST (2017.09 - 2021.07)</p>
-                    <p>HKUST SENG Academic Award for Continuing PhD Students 2019 - 20 (10%)</p>
-                    <p>Excellent Graduate in NJU (5%)</p>
-                    <p>People's Scholarship (first class) in NJU (5%)</p>
-                </div> -->
-
-                <!-- <h3 class="widget-title">Internships / Visitings</h3>
-                <div class="education">
-                    <p><a href="http://pi.cs.tsinghua.edu.cn/">Tsinghua University</a>, Department of Computer Science and Technology, Pervasive Human Computer Interaction Lab, Visiting student, 2020.11 - 2021.01</p>
-                    <p><a href="https://www.webank.com/#/wetech/ai">Webank AI Group</a>, AI algorithm engineer, 2019.09 - 2020.01</p>
-                </div> -->
-
-                
-            </main>
-        </div>
-    </div>
+<!-- I welcome all collaboration opportunities from both academies and industries. -->
+<!-- Contact me via <a href="mailto:zpengab@connect.ust.hk">zpengab@connect.ust.hk</a> -->
+</p>
+</div><div aria-label="Contact and academic profile links" class="profile-links">
+<a class="profile-link primary" href="mailto:pengzhh29@mail.sysu.edu.cn">Email <span aria-hidden="true">↗</span></a>
+<a class="profile-link" href="https://scholar.google.com/citations?user=Fa1yxnQAAAAJ&amp;hl=zh-CN" rel="noopener noreferrer" target="_blank">Google Scholar <span aria-hidden="true">↗</span></a>
+<a class="profile-link" href="docs/Zhenhui_Peng_CV_202606.pdf">CV <span aria-hidden="true">↗</span></a>
+<a class="profile-link" href="docs/人机交互研究简介.pdf" title="Intro to HCI (in Chinese; read this if you are new to HCI)">Intro to HCI (in Chinese; read this if you are new to HCI)<span aria-hidden="true">↗</span></a>
+</div>
+<!-- Edit these two lines to reflect your current recruitment and collaboration opportunities. -->
+<div class="profile-notes">
+<p><strong>I will join <a href="https://cma.hkust-gz.edu.cn/">CMA at HKUST(GZ)</a> as a tenure-track Assistant Professor in Spring 2027.</strong> 
+  I am recruiting <strong>Ph.D. students</strong> interested in HCI starting in Fall 2027, and I also welcome <strong>research interns</strong> to join my group starting now (inquiry email should contain a CV and an initial idea). Prospective Ph.D. students are expected to meet at least one of the following <strong>criteria</strong>: (1) strong recommendation letters from established HCI researchers, (2) a strong publication record, or (3) demonstrated research ability, commitment, and integrity through an internship with my group.
+</p>
 </div>
 
+<div aria-label="Research interests" class="research-content"><p class="research-intro">My research focuses on <strong>Human-Computer Interaction, Social Computing, and Large Language Models</strong>. Specifically, my <strong>HaiA</strong> (Human-AI Augmentation) group develops computational models of human knowledge and skills, quantitatively analyzes complex human interactions online, and designs effective user interfaces to enhance user performance in higher-order thinking tasks. Our research spans a wide range of application domains, including art and design, learning and education, mental health, social media, and clinical medicine.</p><p class="research-lead">Generally, we aim at:</p><ul class="research-bullets"><li><strong>Understanding Users:</strong> What makes social support effective? What knowledge is expressed in comments? What skills are demonstrated in videos?</li><li><strong>Facilitating Users:</strong> Coping with mental health concerns, conversational search in online communities, preparing lesson plans, and ideating creative designs.</li><li><strong>Teaching Users:</strong> Second-language learning, visual design, and critical thinking.</li></ul></div>
+</div></section>
+<section aria-labelledby="pub-title" class="section pubs-section" id="publication">
+<div class="section-header"><h2 id="pub-title">Publications</h2></div>
+<p class="publication-note">†: corresponding author; *: equal contribution; <span class="underlined">Mentees are in underline</span>.</p>
+<div class="publication-toolbar">
+<div aria-label="Filter publications by venue" class="filter-buttons" role="group">
+<button aria-pressed="true" class="filter-btn is-active filter-all" data-filter="all" type="button">All <span>63</span></button>
+<button aria-pressed="false" class="filter-btn venue-filter venue-chi" data-filter="CHI" type="button">CHI <span>15</span></button><button aria-pressed="false" class="filter-btn venue-filter venue-cscw" data-filter="CSCW" type="button">CSCW <span>16</span></button><button aria-pressed="false" class="filter-btn venue-filter venue-uist" data-filter="UIST" type="button">UIST <span>5</span></button><button aria-pressed="false" class="filter-btn venue-filter venue-dis" data-filter="DIS" type="button">DIS <span>3</span></button><button aria-pressed="false" class="filter-btn venue-filter venue-icwsm" data-filter="ICWSM" type="button">ICWSM <span>4</span></button><button aria-pressed="false" class="filter-btn venue-filter venue-ijhcs" data-filter="IJHCS" type="button">IJHCS <span>1</span></button><button aria-pressed="false" class="filter-btn venue-filter venue-ijhci" data-filter="IJHCI" type="button">IJHCI <span>2</span></button><button aria-pressed="false" class="filter-btn venue-filter venue-chinese" data-filter="ChineseCHI/ICHEC" type="button">ChineseCHI/ICHEC <span>8</span></button>
+<button aria-pressed="false" class="filter-btn venue-filter venue-other" data-filter="Other" type="button">Other <span>9</span></button>
+</div>
 
-
-</body>
-</html>
+<div class="publication-search-row"><div aria-label="Filter publications by publication type" class="type-filters" role="group"><button aria-pressed="true" class="type-filter is-active" data-type="all" type="button">All types</button><button aria-pressed="false" class="type-filter" data-type="journal" type="button">Journal</button><button aria-pressed="false" class="type-filter" data-type="conference" type="button">Conference</button><button aria-pressed="false" class="type-filter" data-type="poster" type="button">Poster</button></div><label class="search-wrap" for="pub-search"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.5"></circle><path d="m16 16 5 5"></path></svg><input aria-label="Search publications" autocomplete="off" id="pub-search" placeholder="Search papers, authors..." type="search"/></label></div></div>
+<div aria-live="polite" class="result-count" role="status"></div>
+<section aria-labelledby="journal-title" class="pub-group" data-group="journal" id="journal"><h3 class="pub-group-title" id="journal-title">Journal articles <span>19</span></h3><div class="paper-list">
+<article class="pub-item" data-kind="journal" data-venue="CSCW">
+<div class="pub-topline"><span class="pub-venue venue-cscw">CSCW 2026</span></div>
+<h4 class="pub-title">CoNewsReader: Supporting Comprehensive Understanding and Raising Critical Thoughts on Social Media News Through Comments</h4>
+<div class="pub-authors"><a href="https://yuanky123.github.io/"><span style="text-decoration: underline;">Kangyu Yuan</span></a>, <span style="text-decoration: underline;">Guanzheng Chen, Sizhe Liang, Hehai Lin</span>, Qingyu Guo, Dingdong Liu, Xiaojuan Ma, and <strong>Zhenhui Peng†</strong>. 
+                            2026.</div>
+<div class="pub-extra">(<strong>CSCW 2026</strong>). <strong>Best Paper Honorable Mention Award</strong></div>
+<div class="pub-links">
+<a href="https://dl.acm.org/doi/10.1145/3816913" rel="noopener noreferrer" target="_blank">ACM DL <span aria-hidden="true">↗</span></a>
+<a href="https://arxiv.org/abs/2604.27905" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="journal" data-venue="CSCW">
+<div class="pub-topline"><span class="pub-venue venue-cscw">CSCW 2026</span></div>
+<h4 class="pub-title">Designing AI-Infused Interactive Systems for Online Communities: A Systematic Literature Review</h4>
+<div class="pub-authors">Yuanhao Zhang, Xiaoyu Wang, Jiaxiong Hu, Ziqi Pan, <strong>Zhenhui Peng</strong>, and Xiaojuan Ma. 
+                            2026.</div>
+<div class="pub-extra">(<strong>CSCW 2026</strong>).</div>
+<div class="pub-links">
+<a href="https://dl.acm.org/doi/10.1145/3816920" rel="noopener noreferrer" target="_blank">ACM DL <span aria-hidden="true">↗</span></a>
+<a href="https://arxiv.org/abs/2509.23309" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="journal" data-venue="IJHCI">
+<div class="pub-topline"><span class="pub-venue venue-ijhci">IJHCI 2026</span></div>
+<h4 class="pub-title">“I Do Not Dare to Try and Ask” Comprehensive Framing of Chinese Older Adults’ Difficulties and Corresponding Mental Barriers in Completing Smartphone Interaction Tasks</h4>
+<div class="pub-authors">Xiaozhu Hu, <strong>Zhenhui Peng</strong>, Xuhai Xu, Jinghe Cai, Xiaochen Liu, Mingming Fan, Tristan Braud, Chun Yu, and Yuanchun Shi. 
+                            2026.</div>
+<div class="pub-extra">(<strong>IJHCI 2026</strong>).</div>
+<div class="pub-links">
+<a href="https://www.tandfonline.com/doi/full/10.1080/10447318.2026.2672589" rel="noopener noreferrer" target="_blank">Publisher's link <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="journal" data-venue="IJHCI">
+<div class="pub-topline"><span class="pub-venue venue-ijhci">IJHCI 2025</span></div>
+<h4 class="pub-title">BeautyClicker: Modeling Viewers’ Click Intent of the Cover Image to Support Drafts of Beauty Product Promotion Posts</h4>
+<div class="pub-authors"><span style="text-decoration: underline;">Xueer Lin, Xia Chen</span>, and <strong>Zhenhui Peng†</strong>. 
+                            2025.</div>
+<div class="pub-extra">(<strong>IJHCI 2025</strong>).</div>
+<div class="pub-links">
+<a href="docs/ijhci2025_beautyclicker.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://www.tandfonline.com/doi/full/10.1080/10447318.2025.2531291" rel="noopener noreferrer" target="_blank">Publisher's link <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="journal" data-venue="CSCW">
+<div class="pub-topline"><span class="pub-venue venue-cscw">CSCW 2025</span></div>
+<h4 class="pub-title">AMQuestioner: Training Critical Thinking with Question-Driven Interactive Argument Maps in Online Discussion</h4>
+<div class="pub-authors"><span style="text-decoration: underline;">Qiyu Pan*, Jianqiao Zeng*, Jie Wang*, Junyu Liu**, Yihan Qiu**</span>, Kangyu Yuan, and <strong>Zhenhui Peng†</strong>. 
+                            2025.</div>
+<div class="pub-extra">(<strong>CSCW 2025</strong>).</div>
+<div class="pub-links">
+<a href="docs/cscw2025_amquestioner.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3757551" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="journal" data-venue="CSCW">
+<div class="pub-topline"><span class="pub-venue venue-cscw">CSCW 2025</span></div>
+<h4 class="pub-title">Exploring the Usage of Generative AI for Group Project-Based Offline Art Courses in Elementary Schools</h4>
+<div class="pub-authors"><span style="text-decoration: underline;"><a href="https://www.zhiqingwang.me/">Zhiqing Wang</a>, <a href="https://fanhaoxiang.top/">Haoxiang Fan</a>, Qiaoyi Chen, <a href="https://shionming.github.io/shiweiwu.github.io/">Shiwei Wu</a></span>, Yongqi Liang, and <strong>Zhenhui Peng†</strong>. 
+                            2025.</div>
+<div class="pub-extra">(<strong>CSCW 2025</strong>).</div>
+<div class="pub-links">
+<a href="docs/cscw2025_askart.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3757476" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+<a href="https://www.arxiv.org/abs/2506.16874" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="journal" data-venue="CSCW">
+<div class="pub-topline"><span class="pub-venue venue-cscw">CSCW 2025</span></div>
+<h4 class="pub-title">Redesign of Online Design Communities: Facilitating Personalized Visual Design Learning with Structured Comments</h4>
+<div class="pub-authors"><span style="text-decoration: underline;">Xia Chen*, Xinyue Chen*, Weixian Hu, Haojia Zheng, Yujun Qian</span>, and <strong>Zhenhui Peng†</strong>. 
+                            2025.</div>
+<div class="pub-extra">(<strong>CSCW 2025</strong>).</div>
+<div class="pub-links">
+<a href="docs/cscw2025_designlearner.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3757499" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+<a href="https://arxiv.org/abs/2504.09827" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="journal" data-venue="CSCW">
+<div class="pub-topline"><span class="pub-venue venue-cscw">CSCW 2025</span></div>
+<h4 class="pub-title">ComViewer: An Interactive Visual Tool to Help Viewers Seek Social Support in Online Mental Health Communities</h4>
+<div class="pub-authors"><span style="text-decoration: underline;"><a href="https://shionming.github.io/shiweiwu.github.io/">Shiwei Wu</a></span>, Mingxiang Wang, Chuhan Shi, and <strong>Zhenhui Peng†</strong>. 
+                            2025.</div>
+<div class="pub-extra">(<strong>CSCW 2025</strong>).</div>
+<div class="pub-links">
+<a href="docs/cscw2025_comviewer.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3710904" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+<a href="https://arxiv.org/abs/2411.19169" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="journal" data-venue="CSCW">
+<div class="pub-topline"><span class="pub-venue venue-cscw">CSCW 2025</span></div>
+<h4 class="pub-title">MentalImager: Exploring Generative Images for Assisting Support-Seekers’ Self-Disclosure in Online Mental Health Communities</h4>
+<div class="pub-authors"><span style="text-decoration: underline;">Han Zhang, Jiaqi Zhang, Yuxiang Zhang</span>, Ryan Louie, Taewook Kim, Qingyu Guo, Shuailin Li, and <strong>Zhenhui Peng†</strong>. 
+                            2024.</div>
+<div class="pub-extra">(<strong>CSCW 2025</strong>) <strong>Best Paper Honorable Mention Award</strong>.</div>
+<div class="pub-links">
+<a href="docs/cscw25_mentalimager.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3711031" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+<a href="https://arxiv.org/abs/2409.14859" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="journal" data-venue="CSCW">
+<div class="pub-topline"><span class="pub-venue venue-cscw">CSCW 2025</span></div>
+<h4 class="pub-title">ReviseMate: Exploring Contextual Support for Digesting Academic Paper Reviews</h4>
+<div class="pub-authors">Yuansong Xu, Shuhao Zhang, Yijie Fan, Shaohan Shi, <strong>Zhenhui Peng</strong>, and Quan Li. 
+                            2025.</div>
+<div class="pub-extra">(<strong>CSCW 2025</strong>).</div>
+<div class="pub-links">
+<a href="https://dl.acm.org/doi/10.1145/3757502" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="journal" data-venue="CSCW">
+<div class="pub-topline"><span class="pub-venue venue-cscw">CSCW 2025</span></div>
+<h4 class="pub-title">Exploring the Evolvement of User Engagement in Online Creative Community under the Surge of Generative AI: A Case Study of DeviantArt</h4>
+<div class="pub-authors">Qingyu Guo, Yuqi Zhang, <span style="text-decoration: underline;">Kangyu Yuan</span>, Changyang He, <strong>Zhenhui Peng</strong>, and Xiaojuan Ma. 
+                            2025.</div>
+<div class="pub-extra">(<strong>CSCW 2025</strong>).</div>
+<div class="pub-links">
+<a href="docs/cscw2025_qingyu.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3757474" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="journal" data-venue="CSCW">
+<div class="pub-topline"><span class="pub-venue venue-cscw">CSCW 2024</span></div>
+<h4 class="pub-title">DesignQuizzer: A Community-Powered Conversational Agent for Learning Visual Design</h4>
+<div class="pub-authors"><strong>Zhenhui Peng</strong>, <span style="text-decoration: underline;">Qiaoyi Chen, Zhiyu Shen</span>, Xiaojuan Ma, and Antti Oulasvirta. 
+                            2024.</div>
+<div class="pub-extra">(<strong>CSCW '24</strong>).</div>
+<div class="pub-links">
+<a href="docs/cscw24_designquizzer.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="projects/designquizzer/index.html">Project Page <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3637321" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="journal" data-venue="IJHCS">
+<div class="pub-topline"><span class="pub-venue venue-ijhcs">IJHCS 2022</span></div>
+<h4 class="pub-title">CReBot: Exploring interactive question prompts for critical paper reading</h4>
+<div class="pub-authors"><strong>Zhenhui Peng</strong>, Yuzhi Liu, Hanqi Zhou, Zuyu Xu, and Xiaojuan Ma. 2022.</div>
+<div class="pub-extra">Int. J. Hum.-Comput. Stud. (<strong>IJHCS</strong>) 167, C (Nov 2022).</div>
+<div class="pub-links">
+<a href="docs/CReBot_IJHCS.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="docs/CReBot_IJHCS_materials.zip">Supplimentary materials <span aria-hidden="true">↗</span></a>
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S1071581922001215" rel="noopener noreferrer" target="_blank">HTML <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="journal" data-venue="Other">
+<div class="pub-topline"><span class="pub-venue venue-other">TVCG 2023</span></div>
+<h4 class="pub-title">PromotionLens: Inspecting Promotion Strategies of Online E-commerce via Visual Analytics</h4>
+<div class="pub-authors">Chenyang Zhang, Xiyuan Wang, Chuyi Zhao, Yijing Ren, Tianyu Zhang, <strong>Zhenhui Peng</strong>, Xiaomeng Fan, Xiaojuan Ma, and Quan Li. 2022.</div>
+<div class="pub-extra">In IEEE Transactions on Visualization and Computer Graphics (<strong>TVCG</strong>), vol. 29, no. 1, pp. 767-777, Jan. 2023.</div>
+<div class="pub-links">
+<a href="docs/vis22_quanli.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://ieeexplore.ieee.org/document/9903289" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="journal" data-venue="CSCW">
+<div class="pub-topline"><span class="pub-venue venue-cscw">CSCW 2022</span></div>
+<h4 class="pub-title">PlanHelper: Supporting Activity Plan Construction with Answer Posts in Community-based QA Platforms</h4>
+<div class="pub-authors">Chengzhong Liu, Zeyu Huang, Dingdong Liu, Shixu Zhou, <strong>Zhenhui Peng</strong>, and Xiaojuan Ma. 2022.</div>
+<div class="pub-extra">Proc. ACM Hum.-Comput. Interact. 6, <strong>CSCW</strong>2, Article 454 (November 2022), 26 pages.</div>
+<div class="pub-links">
+<a href="docs/cscw_2022_planhelper.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/abs/10.1145/3555555" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="journal" data-venue="CSCW">
+<div class="pub-topline"><span class="pub-venue venue-cscw">CSCW 2021</span></div>
+<h4 class="pub-title">CASS: Towards Building a Social-Support Chatbot for Online Health Community</h4>
+<div class="pub-authors">Liuping Wang, Dakuo Wang, Feng Tian, <strong>Zhenhui Peng</strong>, Xiangmin Fan, Zhang Zhan, Shuai Ma, Yu Mo, Xiaojuan Ma, and Hongan Wang.
+                            2021.</div>
+<div class="pub-extra">Proc. ACM Hum.-Comput. Interact. 5, <strong>CSCW</strong>1, Article 9 (April 2021), 31 pages.</div>
+<div class="pub-links">
+<a href="https://arxiv.org/abs/2101.01583" rel="noopener noreferrer" target="_blank">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3449083" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="journal" data-venue="Other">
+<div class="pub-topline"><span class="pub-venue venue-other">IJSR 2020</span></div>
+<h4 class="pub-title">Investigating the Effects of Robot Engagement Communication on Learning from Demonstration</h4>
+<div class="pub-authors">Mingfei Sun, <strong>Zhenhui Peng</strong>, Meng Xia, Xiaojuan Ma.
+                            2020.</div>
+<div class="pub-extra">International Journal of Social Robotics 14, 789 - 806.</div>
+<div class="pub-links">
+<a href="https://arxiv.org/abs/2005.01020" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="journal" data-venue="Other">
+<div class="pub-topline"><span class="pub-venue venue-other">TPCI 2020</span></div>
+<h4 class="pub-title">A survey on construction and enhancement methods in service chatbots design</h4>
+<div class="pub-authors"><strong>Zhenhui Peng</strong> and Xiaojuan Ma. 
+                            2020.</div>
+<div class="pub-extra">CCF Trans. Pervasive Comp. Interact. 1, 204–223.</div>
+<div class="pub-links">
+<a href="docs/Peng-Ma2019_Article_ASurveyOnConstructionAndEnhanc.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://doi.org/10.1007/s42486-019-00012-3" rel="noopener noreferrer" target="_blank">HTML <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="journal" data-venue="CSCW">
+<div class="pub-topline"><span class="pub-venue venue-cscw">CSCW 2019</span></div>
+<h4 class="pub-title">Love in Lyrics: An Exploration of Supporting Textual Manifestation of Affection in Social Messaging</h4>
+<div class="pub-authors">Taewook Kim, Jungsoo Lee, <strong>Zhenhui Peng</strong>, and Xiaojuan Ma.
+                            2019.</div>
+<div class="pub-extra">Proc. ACM Hum.-Comput. Interact. 3, <strong>CSCW</strong>, Article 79 (November 2019), 27 pages.</div>
+<div class="pub-links">
+<a href="docs/Lily_Camera_ready.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://doi.org/10.1145/3359181" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+<a href="https://hcikim.github.io/cscw2019/2019/09/23/lily.html" rel="noopener noreferrer" target="_blank">Project Page <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+</div></section>
+<section aria-labelledby="conference-title" class="pub-group" data-group="conference" id="conference"><h3 class="pub-group-title" id="conference-title">Conference papers <span>30</span></h3><div class="paper-list">
+<article class="pub-item" data-kind="conference" data-venue="ICWSM">
+<div class="pub-topline"><span class="pub-venue venue-icwsm">ICWSM 2027</span></div>
+<h4 class="pub-title">Associations Between Support-Seekers' Cross-Community Interactions and Their Engagement with Received Comments in Online Health Communities</h4>
+<div class="pub-authors"><span style="text-decoration: underline;">Shenghan Tan, Daiang Jia, Chunghiu Kong</span>, Tianjian Liu, and <strong>Zhenhui Peng†</strong>. 
+                            2027.</div>
+<div class="pub-extra">(<strong>ICWSM 2027</strong>).</div>
+<div class="pub-links">
+<a href="https://arxiv.org/abs/2607.19655" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="ICWSM">
+<div class="pub-topline"><span class="pub-venue venue-icwsm">ICWSM 2027</span></div>
+<h4 class="pub-title">Understanding Fortunetelling with Large Language Models in China: User Practices, Perceptions, and Impacts on Beliefs and Decisions</h4>
+<div class="pub-authors"><span style="text-decoration: underline;">Xueer Lin, Chenyu Li</span>, Shuai Ma, <span style="text-decoration: underline;">Yuhan Lyu</span>, and <strong>Zhenhui Peng†</strong>. 
+                            2027.</div>
+<div class="pub-extra">(<strong>ICWSM 2027</strong>).</div>
+<div class="pub-links">
+<a href="https://arxiv.org/abs/2607.15626" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="UIST">
+<div class="pub-topline"><span class="pub-venue venue-uist">UIST 2026</span></div>
+<h4 class="pub-title">TeachUp: Facilitating Early-Stage Teachers to Learn Instructional Strategies from Classroom Videos with Reflective Support</h4>
+<div class="pub-authors"><span style="text-decoration: underline;"><a href="https://fanhaoxiang.top/">Haoxiang Fan</a></span>, Ding Lei, <span style="text-decoration: underline;">Zaihong Zheng, Jiale Li</span>, Jionghao Lin, Jian Yin, and <strong>Zhenhui Peng†</strong>. 
+                            2026.</div>
+<div class="pub-extra">(<strong>UIST 2026</strong>).</div>
+<div class="pub-links">
+<a href="docs/uist26_teachup.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://arxiv.org/abs/2608.08535" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="DIS">
+<div class="pub-topline"><span class="pub-venue venue-dis">DIS 2026</span></div>
+<h4 class="pub-title">ConSearcher: Supporting Conversational Information Seeking in Online Communities with Member Personas</h4>
+<div class="pub-authors"><span style="text-decoration: underline;"><a href="https://shionming.github.io/shiweiwu.github.io/">Shiwei Wu</a>, Xinyue Chen, Yuheng Liu</span>, Xingbo Wang, Qingyu Guo, Longfei Chen, Chuhan Shi, and <strong>Zhenhui Peng†</strong>. 
+                            2026.</div>
+<div class="pub-extra">(<strong>DIS 2026</strong>).</div>
+<div class="pub-links">
+<a href="https://dl.acm.org/doi/10.1145/3800645.3813049" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+<a href="https://arxiv.org/abs/2603.19747" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="CHI">
+<div class="pub-topline"><span class="pub-venue venue-chi">CHI 2026</span></div>
+<h4 class="pub-title">InkIdeator: Supporting Chinese-Style Visual Design Ideation via AI-Infused Exploration of Chinese Paintings</h4>
+<div class="pub-authors"><span style="text-decoration: underline;"><a href="https://shionming.github.io/shiweiwu.github.io/">Shiwei Wu</a></span>, Ziyao Gao, <span style="text-decoration: underline;">Zhendong He, Zongtan He, Zhupeng Huang, Xia Chen</span>, Wei Zeng, Xiaojuan Ma, and <strong>Zhenhui Peng†</strong>. 
+                            2026.</div>
+<div class="pub-extra">(<strong>CHI 2026</strong>).</div>
+<div class="pub-links">
+<a href="docs/chi26_inkideator.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3772318.3791675" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+<a href="https://arxiv.org/abs/2601.18193" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="ChineseCHI/ICHEC">
+<div class="pub-topline"><span class="pub-venue venue-chinese">ICHEC 2025</span></div>
+<h4 class="pub-title">Exploring Community-Powered Conversational Agent for Health Knowledge Acquisition: A Case Study in Colorectal Cancer</h4>
+<div class="pub-authors"><span style="text-decoration: underline;"><a href="https://kepler-24.github.io/yiweiyuan/">Yiwei Yuan</a>, Zhiqing Wang, Xiucheng Zhang, Yichao Luo</span>, Shuya Lin, Yang Bai, and <strong>Zhenhui Peng†</strong>. 
+                            2025.</div>
+<div class="pub-extra">(<strong> ICHEC 2025</strong>).</div>
+<div class="pub-links">
+<a href="https://arxiv.org/abs/2512.09511" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="CHI">
+<div class="pub-topline"><span class="pub-venue venue-chi">CHI 2025</span></div>
+<h4 class="pub-title">LitLinker: Supporting the Ideation of Interdisciplinary Contexts with Large Language Models for Teaching Literature in Elementary Schools</h4>
+<div class="pub-authors"><span style="text-decoration: underline;"><a href="https://fanhaoxiang.top/">Haoxiang Fan</a></span>, Changshuang Zhou*, <span style="text-decoration: underline;">Hao Yu*</span>, Xueyang Wu, Jiangyu Gu, and <strong>Zhenhui Peng†</strong>. 
+                            2025.</div>
+<div class="pub-extra">(<strong>CHI 2025</strong>).</div>
+<div class="pub-links">
+<a href="docs/chi25-litlinker.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3706598.3714111" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+<a href="https://arxiv.org/abs/2502.16097" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="CHI">
+<div class="pub-topline"><span class="pub-venue venue-chi">CHI 2025</span></div>
+<h4 class="pub-title">Towards Human-AI Deliberation: Design and Evaluation of LLM-Empowered Deliberative AI for AI-Assisted Decision-Making</h4>
+<div class="pub-authors">Shuai Ma, <span style="text-decoration: underline;">Qiaoyi Chen</span>, Xinru Wang, Chengbo Zheng, <strong>Zhenhui Peng</strong>, Min Yin, and Xiaojuan Ma. 
+                            2025.</div>
+<div class="pub-extra">(<strong>CHI 2025 (Honorable Mention)</strong>).</div>
+<div class="pub-links">
+<a href="https://dl.acm.org/doi/10.1145/3706598.3713423" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+<a href="https://arxiv.org/abs/2403.16812" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="CHI">
+<div class="pub-topline"><span class="pub-venue venue-chi">CHI 2025</span></div>
+<h4 class="pub-title">ACKnowledge: A Computational Framework for Human Compatible Affordance-based Interaction Planning in Real-world Contexts</h4>
+<div class="pub-authors">Ziqi Pan, <span style="text-decoration: underline;">Xiucheng Zhang</span>, Zisu Li, <strong>Zhenhui Peng</strong>, Mingming Fan, and Xiaojuan Ma. 
+                            2025.</div>
+<div class="pub-extra">(<strong>CHI 2025</strong>).</div>
+<div class="pub-links">
+<a href="https://dl.acm.org/doi/10.1145/3706598.3713791" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="ChineseCHI/ICHEC">
+<div class="pub-topline"><span class="pub-venue venue-chinese">ChineseCHI 2024</span></div>
+<h4 class="pub-title">VChater: Exploring Generative Conversational Agents for Simulating Exposure Therapy to Reduce Social Anxiety</h4>
+<div class="pub-authors"><span style="text-decoration: underline;">Han Zhang</span>, Ka Wing Tsang and <strong>Zhenhui Peng†</strong>. 
+                            2024.</div>
+<div class="pub-extra">(<strong>ChineseCHI 2024</strong>).</div>
+<div class="pub-links">
+<a href="https://arxiv.org/abs/2506.03520" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="UIST">
+<div class="pub-topline"><span class="pub-venue venue-uist">UIST 2024</span></div>
+<h4 class="pub-title">LessonPlanner: Assisting Novice Teachers to Prepare
+                                Pedagogy-Driven Lesson Plans with Large Language Models</h4>
+<div class="pub-authors"><span style="text-decoration: underline;"><a href="https://fanhaoxiang.top/">Haoxiang Fan</a>, Guanzheng Chen</span>, Xingbo Wang, and <strong>Zhenhui Peng†</strong>. 
+                            2024.</div>
+<div class="pub-extra">(<strong>UIST 2024</strong>).</div>
+<div class="pub-links">
+<a href="docs/uist24lessonplanner.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3654777.3676390" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+<a href="https://arxiv.org/abs/2408.01102" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="UIST">
+<div class="pub-topline"><span class="pub-venue venue-uist">UIST 2024</span></div>
+<h4 class="pub-title">ComPeer: A Generative Conversational Agent
+                                for Proactive Peer Support</h4>
+<div class="pub-authors"><span style="text-decoration: underline;">Tianjian Liu, Hongzheng Zhao*, Yuheng Liu*</span>, Xingbo Wang, and <strong>Zhenhui Peng†</strong>. 
+                            2024.</div>
+<div class="pub-extra">(<strong>UIST 2024</strong>).</div>
+<div class="pub-links">
+<a href="docs/uist24compeer.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3654777.3676430" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+<a href="https://arxiv.org/abs/2407.18064" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="DIS">
+<div class="pub-topline"><span class="pub-venue venue-dis">DIS 2024</span></div>
+<h4 class="pub-title">RetAssist: Facilitating Vocabulary Learners with Generative Images in Story Retelling Practices</h4>
+<div class="pub-authors"><span style="text-decoration: underline;">Qiaoyi Chen, Siyu Liu, Kaihui Huang</span>, Xingbo Wang, Xiaojuan Ma, Junkai Zhu, and <strong>Zhenhui Peng†</strong>. 
+                            2024.</div>
+<div class="pub-extra">(<strong>DIS 2024</strong>).</div>
+<div class="pub-links">
+<a href="docs/dis24_retassist.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3643834.3661581" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="ICWSM">
+<div class="pub-topline"><span class="pub-venue venue-icwsm">ICWSM 2024</span></div>
+<h4 class="pub-title">Understanding the Features of Text-Image Posts and Their Received Social Support in Online Grief Support Communities</h4>
+<div class="pub-authors"><span style="text-decoration: underline;">Shuailin Li, <a href="https://shionming.github.io/shiweiwu.github.io/">Shiwei Wu</a>, Tianjian Liu, Han Zhang</span>, Qingyu Guo, and <strong>Zhenhui Peng†</strong>. 
+                            2024.</div>
+<div class="pub-extra">(<strong>ICWSM 2024</strong>).</div>
+<div class="pub-links">
+<a href="docs/icwsm2024_grief_community.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://ojs.aaai.org/index.php/ICWSM/article/view/31362" rel="noopener noreferrer" target="_blank">AAAI <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="CHI">
+<div class="pub-topline"><span class="pub-venue venue-chi">CHI 2024</span></div>
+<h4 class="pub-title">Charting the Future of AI in Project-Based Learning: A Co-Design Exploration with Students</h4>
+<div class="pub-authors">Chengbo Zheng, <span style="text-decoration: underline;">Kangyu Yuan</span>, Bingcan Guo, Reza Hadi Mogavi, <strong>Zhenhui Peng</strong>, Shuai Ma, and Xiaojuan Ma. 2024.</div>
+<div class="pub-extra">(<strong>CHI '24</strong>).</div>
+<div class="pub-links">
+<a href="docs/CHI2024_AI_in_PBL.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/abs/10.1145/3613904.3642807" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="Other">
+<div class="pub-topline"><span class="pub-venue venue-other">IUI 2024</span></div>
+<h4 class="pub-title">BiasEye: A Bias-Aware Real-time Interactive Material Screening System for Impartial Candidate Assessment</h4>
+<div class="pub-authors">Qianyu Liu, Haoran Jiang, Zihao Pan, <span style="text-decoration: underline;">Qiushi Han</span>, <strong>Zhenhui Peng</strong>, and Quan Li. 
+                            2024.</div>
+<div class="pub-extra">(<strong>IUI '24</strong>).</div>
+<div class="pub-links">
+<a href="docs/IUI2024_MaterialScreen.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3640543.3645166" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="UIST">
+<div class="pub-topline"><span class="pub-venue venue-uist">UIST 2023</span></div>
+<h4 class="pub-title">Storyfier: Exploring Vocabulary Learning Support with Text Generation Models</h4>
+<div class="pub-authors"><strong>Zhenhui Peng*</strong>, Xingbo Wang*, <span style="text-decoration: underline;">Qiushi Han</span>, Junkai Zhu, Xiaojuan Ma, and Huamin Qu. 
+                            2023.</div>
+<div class="pub-extra">(<strong>UIST '23</strong>).</div>
+<div class="pub-links">
+<a href="docs/uist23_storyfier.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3586183.3606786" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="UIST">
+<div class="pub-topline"><span class="pub-venue venue-uist">UIST 2023</span></div>
+<h4 class="pub-title">CriTrainer: An Adaptive Training Tool for Critical Paper Reading</h4>
+<div class="pub-authors"><span style="text-decoration: underline;">Kangyu Yuan*, Hehai Lin*, Shilei Cao*</span>, <strong>Zhenhui Peng†</strong>, Qingyu Guo, and Xiaojuan Ma. 
+                            2023.</div>
+<div class="pub-extra">(<strong>UIST '23</strong>).</div>
+<div class="pub-links">
+<a href="docs/uist23-critrainer.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3586183.3606816" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+<a href="https://www.youtube.com/watch?v=m3MKh457m8A" rel="noopener noreferrer" target="_blank">Video preview <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="Other">
+<div class="pub-topline"><span class="pub-venue venue-other">CHCI 2023</span></div>
+<h4 class="pub-title">ALens: An Adaptive Domain-Oriented Abstract Writing Training Tool for Novice Researchers</h4>
+<div class="pub-authors">Chen Cheng, Ziang Li, <strong>Zhenhui Peng</strong>, and Quan Li. 
+                            2023.</div>
+<div class="pub-extra">(<strong>HHME/CHCI 2023</strong>).</div>
+<div class="pub-links">
+<a href="docs/CHCI2023_Alen.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://arxiv.org/abs/2308.03989" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="CHI">
+<div class="pub-topline"><span class="pub-venue venue-chi">ChinaVis 2023</span></div>
+<h4 class="pub-title">Amplifying the Music Listening Experience through Song Comments on Music Streaming Platforms</h4>
+<div class="pub-authors">Longfei Chen, Qianyu Liu, Chenyang Zhang, Yangkun Huang, <strong>Zhenhui Peng</strong>, Haipeng Zeng, Zhida Sun, Xiaojuan Ma, and Quan Li. 
+                            2023.</div>
+<div class="pub-extra">(<strong>ChinaVis 2023</strong>).</div>
+<div class="pub-links">
+<a href="docs/ChineseVis2023_music.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://arxiv.org/abs/2308.04022" rel="noopener noreferrer" target="_blank">Arxiv <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="CHI">
+<div class="pub-topline"><span class="pub-venue venue-chi">CHI 2023</span></div>
+<h4 class="pub-title">What Makes Creators Engage with Online Critiques? Understanding the Role of Artifacts’ Creation Stage, Characteristics of Community Comments, and their Interactions</h4>
+<div class="pub-authors">Qingyu Guo, Chao Zhang, Hanfang Lyu, <strong>Zhenhui Peng</strong>, and Xiaojuan Ma. 2023.</div>
+<div class="pub-extra">In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (<strong>CHI '23</strong>). Association for Computing Machinery, New York, NY, USA, Article 556, 1–17.</div>
+<div class="pub-links">
+<a href="docs/CHI2023_OCC.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://doi.org/10.1145/3544548.3581054" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="DIS">
+<div class="pub-topline"><span class="pub-venue venue-dis">DIS 2022</span></div>
+<h4 class="pub-title">Exploring the Effects of Self-Mockery to Improve Task-Oriented Chatbot's Social Intelligence</h4>
+<div class="pub-authors">Chengzhong Liu, Shixu Zhou, Yuanhao Zhang, Dingdong Liu, <strong>Zhenhui Peng</strong>, and Xiaojuan Ma. 2022.</div>
+<div class="pub-extra">In Proceedings of the 2022 ACM Designing Interactive Systems Conference (<strong>DIS '22</strong>). Association for Computing Machinery, New York, NY, USA, 1315–1329.</div>
+<div class="pub-links">
+<a href="docs/dis22.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://doi.org/10.1145/3532106.3533461" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="CHI">
+<div class="pub-topline"><span class="pub-venue venue-chi">CHI 2022</span></div>
+<h4 class="pub-title">Understanding and Modeling Viewers’ First Impressions with Images in Online Medical Crowdfunding Campaigns</h4>
+<div class="pub-authors">Qingyu Guo, Siyuan Zhou, Yifeng Wu, <strong>Zhenhui Peng</strong>, and Xiaojuan Ma. 2022.</div>
+<div class="pub-extra">In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (<strong>CHI '22</strong>). Association for Computing Machinery, New York, NY, USA, Article 361, 1–20.</div>
+<div class="pub-links">
+<a href="docs/chi2022_qingyu.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/abs/10.1145/3491102.3501830" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="ICWSM">
+<div class="pub-topline"><span class="pub-venue venue-icwsm">ICWSM 2022</span></div>
+<h4 class="pub-title">Know It to Defeat It: Exploring Health Rumor Characteristics and Debunking Efforts on Chinese Social Media during COVID-19 Crisis</h4>
+<div class="pub-authors">Wenjie Yang, Sitong Wang*, <strong>Zhenhui Peng*</strong>, Chuhan Shi, Xiaojuan Ma, and Diyi Yang. 
+                            2022.</div>
+<div class="pub-extra">Proceedings of the International AAAI Conference on Web and Social Media (<strong>ICWSM</strong>). 16, 1 (May 2022), 1157-1168.</div>
+<div class="pub-links">
+<a href="https://arxiv.org/abs/2109.12372" rel="noopener noreferrer" target="_blank">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://ojs.aaai.org/index.php/ICWSM/article/view/19366" rel="noopener noreferrer" target="_blank">AAAI <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="ChineseCHI/ICHEC">
+<div class="pub-topline"><span class="pub-venue venue-chinese">ChineseCHI 2021</span></div>
+<h4 class="pub-title">Understanding Players’ Interaction Patterns with Mobile Game App UI via Visualizations</h4>
+<div class="pub-authors">Quan Li, Haipeng Zeng, <strong>Zhenhui Peng</strong>, and Xiaojuan Ma. 2022.</div>
+<div class="pub-extra">In The Ninth International Symposium of Chinese CHI (<strong>Chinese CHI 2021</strong>). Association for Computing Machinery, New York, NY, USA, 9–21.</div>
+<div class="pub-links">
+<a href="docs/chchi2021.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3490355.3490357" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="Other">
+<div class="pub-topline"><span class="pub-venue venue-other">MobileHCI 2021</span></div>
+<h4 class="pub-title">Exploring Designers’ Practice of Online Example Management for Supporting Mobile UI Design</h4>
+<div class="pub-authors">Ziming Wu*, Qianyao Xu*, Yiding Liu, <strong>Zhenhui Peng</strong>, Yingqing Xu, and Xiaojuan Ma.
+                            2021.</div>
+<div class="pub-extra">In Proceedings of the 23rd International Conference on Mobile Human-Computer Interaction (<strong>MobileHCI '21</strong>). Association for Computing Machinery, New York, NY, USA, Article 44, 1–12.</div>
+<div class="pub-links">
+<a href="docs/MobileHCI2021.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3447526.3472048" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="CHI">
+<div class="pub-topline"><span class="pub-venue venue-chi">CHI 2021</span></div>
+<h4 class="pub-title">Effects of Support-Seekers’ Community Knowledge on Their Expressed Satisfaction with the Received Comments in Mental Health Communities</h4>
+<div class="pub-authors"><strong>Zhenhui Peng</strong>, Xiaojuan Ma, Diyi Yang, Ka Wing Tsang, and Qingyu Guo. 2021.</div>
+<div class="pub-extra">In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (<strong>CHI '21</strong>). Association for Computing Machinery, New York, NY, USA, Article 536, 1–12.</div>
+<div class="pub-links">
+<a href="docs/chi2021_mental_health.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/abs/10.1145/3411764.3445446" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+<a href="projects/satisfaction_mental_health/Sought_support_rating_scheme.pdf">Rating Scheme for Sought Support <span aria-hidden="true">↗</span></a>
+<a href="projects/satisfaction_mental_health/feature_sets_for_satisfaction_and_sought_support_models.pdf">Features of Models <span aria-hidden="true">↗</span></a>
+<a href="projects/satisfaction_mental_health/source_codes.zip">Source Code of Models <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="CHI">
+<div class="pub-topline"><span class="pub-venue venue-chi">CHI 2020</span></div>
+<h4 class="pub-title">Exploring the Effects of Technological Writing Assistance for Support Providers in Online Mental Health Community</h4>
+<div class="pub-authors"><strong>Zhenhui Peng</strong>, Qingyu Guo, Ka Wing Tsang, and Xiaojuan Ma. 
+                            2020.</div>
+<div class="pub-extra">In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (<strong>CHI '20</strong>). Association for Computing Machinery, New York, NY, USA, 1–15.</div>
+<div class="pub-links">
+<a href="docs/MepsBot.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376695" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+<a href="projects/mepsbot/mepsbot.html">Project Page <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="ChineseCHI/ICHEC">
+<div class="pub-topline"><span class="pub-venue venue-chinese">ChineseCHI 2020</span></div>
+<h4 class="pub-title">Friend Network as Gatekeeper: A Study of WeChat Users’ Consumption of Friend-Curated Contents</h4>
+<div class="pub-authors">Quan Li, <strong>Zhenhui Peng</strong>, Haipeng Zeng, Qiaoan Chen, Lingling Yi, Ziming Wu, Xiaojuan Ma, and Tianjian Chen.
+                            2020.</div>
+<div class="pub-extra">In The eighth International Workshop of Chinese CHI (<strong>Chinese CHI 2020</strong>). Association for Computing Machinery, New York, NY, USA, 21–31.</div>
+<div class="pub-links">
+<a href="docs/gatekeeper_wechat.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3403676.3403679" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="conference" data-venue="CHI">
+<div class="pub-topline"><span class="pub-venue venue-chi">CHI 2019</span></div>
+<h4 class="pub-title">Design and Evaluation of Service Robot's Proactivity in Decision-Making Support Proces</h4>
+<div class="pub-authors"><strong>Zhenhui Peng</strong>, Yunhwan Kwon, Jiaan Lu, Ziming Wu, and Xiaojuan Ma. 
+                            2019.</div>
+<div class="pub-extra">s. 
+                            In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (<strong>CHI '19</strong>). Association for Computing Machinery, New York, NY, USA, Paper 98, 1–13.</div>
+<div class="pub-links">
+<a href="docs/Design_and_Evaluation_of_Service_Robots_Proactivity_in_Decision_Making_Support_Process.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3290605.3300328" rel="noopener noreferrer" target="_blank">HTML <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+</div></section>
+<section aria-labelledby="poster-title" class="pub-group" data-group="poster" id="poster"><h3 class="pub-group-title" id="poster-title">Posters, late-breaking work &amp; workshops <span>14</span></h3><div class="paper-list">
+<article class="pub-item" data-kind="poster" data-venue="CHI">
+<div class="pub-topline"><span class="pub-venue venue-chi">CHI 2026</span></div>
+<h4 class="pub-title">Toward Personalized Proactive Agents on Smart Glasses: From Explicit Context Policies to Implicit User Differences</h4>
+<div class="pub-authors"><span style="text-decoration: underline;"><a href="https://fanhaoxiang.top/">Haoxiang Fan</a>, <a href="https://kepler-24.github.io/yiweiyuan/">Yiwei Yuan</a></span>, Chi Hsia, Chen Liang, and <strong>Zhenhui Peng</strong>. 
+                            2026.</div>
+<div class="pub-extra">(<strong>CHI 2026 Poster</strong>).</div>
+<div class="pub-links">
+<a href="https://dl.acm.org/doi/10.1145/3772363.3798509" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="poster" data-venue="CSCW">
+<div class="pub-topline"><span class="pub-venue venue-cscw">CSCW 2025</span></div>
+<h4 class="pub-title">“Here Comes the Makeup Tutorial You Asked For!”: Exploring Communication Strategies and Viewer Engagement in Beauty Videos on Rednote</h4>
+<div class="pub-authors"><span style="text-decoration: underline;">Xueer Lin, Chenyu Li, Yuhan Lyu</span>, Zhicong Lu, and <strong>Zhenhui Peng†</strong>. 
+                            2025.</div>
+<div class="pub-extra">(<strong>CSCW 2025 Poster</strong>).</div>
+<div class="pub-links">
+<a href="https://dl.acm.org/doi/10.1145/3715070.3749231" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="poster" data-venue="ChineseCHI/ICHEC">
+<div class="pub-topline"><span class="pub-venue venue-chinese">ChineseCHI 2024</span></div>
+<h4 class="pub-title">A Dataset and BenchMark Models for Predicting Human Intentions Expressed in Text-Image Posts in Chinese Online Mental Health Communities</h4>
+<div class="pub-authors"><span style="text-decoration: underline;">Zhendong He*, Zhupeng Huang, Yitong Xie, Feiyu Li, Zongtan He</span>, and <strong>Zhenhui Peng</strong>. 
+                            2024.</div>
+<div class="pub-extra">(<strong>ChineseCHI 2024 Late-Breaking Work</strong>).</div>
+<div class="pub-links">
+<a href="docs/chchi2024-58.pdf">PDF <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="poster" data-venue="CSCW">
+<div class="pub-topline"><span class="pub-venue venue-cscw">CSCW 2024</span></div>
+<h4 class="pub-title">SummarFlex: Exploring Personalized News Filtering and Reading with Query-Focused Hierarchical Summarization</h4>
+<div class="pub-authors"><span style="text-decoration: underline;">Zimo Xia*, Xichen Sun*</span>, Xueyang Wu, <span style="text-decoration: underline;">Qiyu Pan</span>, Kaixiang Mo, and <strong>Zhenhui Peng†</strong>. 
+                            2024.</div>
+<div class="pub-extra">(<strong>CSCW 2024 Poster</strong>).</div>
+<div class="pub-links">
+<a href="docs/cscw24poster_summarflex.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3678884.3681854" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="poster" data-venue="Other">
+<div class="pub-topline"><span class="pub-venue venue-other">MobileHCI 2024</span></div>
+<h4 class="pub-title">DesignWatch: Analyzing Users’ Operations of Mobile Apps Based on Screen Recordings</h4>
+<div class="pub-authors"><span style="text-decoration: underline;">Xiucheng Zhang, Yixin Zeng*, Qichang Li*</span>, Guanyi Chen, Qianyao Xu, Xiaozhu Hu, and <strong>Zhenhui Peng†</strong>. 
+                            2024.</div>
+<div class="pub-extra">(<strong>MobileHCI 2024 Late-Breaking Work</strong>).</div>
+<div class="pub-links">
+<a href="docs/mobilehc2024lbw.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3640471.3680231" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="poster" data-venue="CHI">
+<div class="pub-topline"><span class="pub-venue venue-chi">CHI 2024</span></div>
+<h4 class="pub-title">Exploring the Evolvement of Artwork Descriptions in Online Creative Community under the Surge of Generative AI: A Case Study of DeviantArt</h4>
+<div class="pub-authors">Qingyu Guo, <span style="text-decoration: underline;">Kangyu Yuan</span>, Changyang He, <strong>Zhenhui Peng</strong>, and Xiaojuan Ma.  
+                            2024.</div>
+<div class="pub-extra">(<strong>CHI LBW '24</strong>).</div>
+<div class="pub-links">
+<a href="docs/CHI2024LBW_GenAI_community.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/10.1145/3613905.3650851" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="poster" data-venue="ChineseCHI/ICHEC">
+<div class="pub-topline"><span class="pub-venue venue-chinese">ChineseCHI 2023</span></div>
+<h4 class="pub-title">ReDBot: Exploring Conversational Recommendation for Decision-Making Support in Group Chats</h4>
+<div class="pub-authors"><span style="text-decoration: underline;">Qiushi Han, Haitong Chen, <a href="https://fanhaoxiang.top/">Haoxiang Fan</a></span>, <strong>Zhenhui Peng†</strong>. 
+                            2023.</div>
+<div class="pub-extra">(<strong>ChineseCHI LBW '23</strong>).</div>
+<div class="pub-links">
+<a href="docs/chinesechi23_RedBot.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/abs/10.1145/3629606.3629615" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="poster" data-venue="CHI">
+<div class="pub-topline"><span class="pub-venue venue-chi">CHI 2023</span></div>
+<h4 class="pub-title">Rawal: A Reflection Assistant with Active Listening for Peer Support Chats</h4>
+<div class="pub-authors">Ryan Louie, Taewook Kim, and <strong>Zhenhui Peng</strong>. 2023</div>
+<div class="pub-extra">In CHI 2023 Workshop on Integrating Individual and Social Contexts into Self-Reflection Technologies.</div>
+<div class="pub-links">
+<a href="docs/CHI_workshop_rawal.pdf">PDF <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="poster" data-venue="ChineseCHI/ICHEC">
+<div class="pub-topline"><span class="pub-venue venue-chinese">ChineseCHI 2021</span></div>
+<h4 class="pub-title">Exploring User Experience and Design Opportunities of Desktop Social Virtual Reality for Group Learning Activities</h4>
+<div class="pub-authors"><strong>Zhenhui Peng</strong>, Chuhan Shi, and Xiaojuan Ma. 2022.</div>
+<div class="pub-extra">In The Ninth International Symposium of Chinese CHI (<strong>Chinese CHI 2021</strong>). Association for Computing Machinery, New York, NY, USA, 105–111.</div>
+<div class="pub-links">
+<a href="docs/ChCHI2021_Social_VR.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://dl.acm.org/doi/fullHtml/10.1145/3490355.3490367" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="poster" data-venue="Other">
+<div class="pub-topline"><span class="pub-venue venue-other">IUI 2021</span></div>
+<h4 class="pub-title">“Exploring the "Double-Edged Sword" Effect of Auto-Insight Recommendation in Exploratory Data Analysis</h4>
+<div class="pub-authors">Quan Li, Huanbin Lin, Chunfeng Tang, Xiguang Wei, <strong>Zhenhui Peng</strong>, Xiaojuan Ma, and Tianjian Chen. 
+                            2021.</div>
+<div class="pub-extra">IUI Workshops.</div>
+<div class="pub-links">
+<a href="IUI21WS-ESIDA.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://ceur-ws.org/Vol-2903/IUI21WS-ESIDA-2.pdf" rel="noopener noreferrer" target="_blank">HTML <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="poster" data-venue="CHI">
+<div class="pub-topline"><span class="pub-venue venue-chi">CHI 2020</span></div>
+<h4 class="pub-title">Understanding User Perceptions of Robot's Delay, Voice Quality-Speed Trade-off and GUI during Conversation</h4>
+<div class="pub-authors"><strong>Zhenhui Peng</strong>, Kaixiang Mo, Xiaogang Zhu, Junlin Chen, Zhijun Chen, Qian Xu and Xiaojuan Ma.
+                            2020.</div>
+<div class="pub-extra">In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (<strong>CHI EA '20</strong>). Association for Computing Machinery, New York, NY, USA, 1–8.</div>
+<div class="pub-links">
+<a href="docs/chi2020lbw_Xiaowei.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://doi.org/10.1145/3334480.3382792" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="poster" data-venue="Other">
+<div class="pub-topline"><span class="pub-venue venue-other">EuroVis 2020</span></div>
+<h4 class="pub-title">Visual Analysis of Car-hailing Reimbursement Data for Overtime</h4>
+<div class="pub-authors">Qiangqiang Liu, Quan Li, Chunfeng Tang, Huanbin Lin, <strong>Zhenhui Peng</strong>, Zhiwei Li, and Tianjian Chen. 
+                            2020.</div>
+<div class="pub-extra">EuroVis 2020 Posters.</div>
+<div class="pub-links">
+<a href="https://diglib.eg.org/handle/10.2312/eurp20201119" rel="noopener noreferrer" target="_blank">HTML <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="poster" data-venue="CSCW">
+<div class="pub-topline"><span class="pub-venue venue-cscw">CSCW 2019</span></div>
+<h4 class="pub-title">GremoBot: Exploring Emotion Regulation in Group Chat</h4>
+<div class="pub-authors"><strong>Zhenhui Peng</strong>, Taewook Kim and Xiaojuan Ma.
+                            2019.</div>
+<div class="pub-extra">In Conference Companion Publication of the 2019 on Computer Supported Cooperative Work and Social Computing (CSCW '19). Association for Computing Machinery, New York, NY, USA, 335–340.</div>
+<div class="pub-links">
+<a href="docs/GremoBot_Exploring_Emotion_Regulation_in_Group_Chat.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://doi.org/10.1145/3311957.3359472" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+<article class="pub-item" data-kind="poster" data-venue="ChineseCHI/ICHEC">
+<div class="pub-topline"><span class="pub-venue venue-chinese">ChineseCHI 2018</span></div>
+<h4 class="pub-title">Exploring How Software Developers Work with Mention Bot in GitHub</h4>
+<div class="pub-authors"><strong>Zhenhui Peng</strong>, Jeehoon Yoo, Meng Xia, Sunghun Kim, and Xiaojuan Ma.
+                            2018.</div>
+<div class="pub-extra">In Proceedings of the Sixth International Symposium of Chinese CHI (<strong>ChineseCHI '18</strong>). Association for Computing Machinery, New York, NY, USA, 152–155.</div>
+<div class="pub-links">
+<a href="docs/chinesechi-poster-camera-ready.pdf">PDF <span aria-hidden="true">↗</span></a>
+<a href="https://doi.org/10.1145/3202667.3202694" rel="noopener noreferrer" target="_blank">ACM <span aria-hidden="true">↗</span></a>
+</div>
+</article>
+</div></section>
+<p class="no-papers" hidden="" id="no-papers">No publications match your search. Try a different term or filter.</p>
+</section>
+<section aria-labelledby="teaching-title" class="section simple-section" id="course">
+<h2 id="teaching-title">Teaching</h2>
+<div class="type-group"><h3 class="type-label">Postgraduate</h3><ul class="simple-list"><li><strong>Human-Computer Interaction</strong> (Fall 2024, Fall 2023, Fall 2022), SYSU</li></ul></div>
+<div class="type-group"><h3 class="type-label">Undergraduate</h3><ul class="simple-list"><li><strong>Human-Computer Interaction Design</strong> (Fall 2025, Fall 2024), SYSU</li><li><strong>Principles of Artificial Intelligence and its lab sessions</strong> (Spring 2026, Spring 2025, Spring 2024, Spring 2023, Spring 2022), SYSU</li><li><strong>Data Structure and Algorithm and its lab sessions</strong> (Fall 2023, Fall 2022), SYSU</li></ul></div>
+</section>
+<section aria-labelledby="student-title" class="section simple-section" id="student"><h2 id="student-title">Students</h2><div class="student-status-block"><h3 class="student-status-title">Current members</h3>
+  <div class="student-category"><h4 class="student-category-title">Master’s students</h4><ul class="simple-list"><li>Peiyun Song (SYSU master student, since fall 2026, from 中山大学)</li><li>Zongtan He (SYSU master student, since fall 2026, from 中山大学)</li><li>Jingru Fan (SYSU master student, since fall 2026, from 中国传媒大学)</li><li>Le Chen (SYSU master student, since fall 2025, from 北京化工大学)</li><li>Xia Chen (SYSU master student, since fall 2025, from 中山大学)</li><li>Xueer Lin (SYSU master student, since fall 2024, from 中山大学)</li><li><a href="https://kepler-24.github.io/yiweiyuan/">Yiwei Yuan</a> (SYSU master student, since fall 2024, from 中山大学)</li><li>Pengpin Lin (SYSU master student, since fall 2024, joined from SYSU CS)</li><li>Huaqi Liao (SYSU undergraduate student)</li><li>Jiachen Wang (SYSU undergraduate )</li></ul></div>
+  <!-- <div class="student-category">
+  <h4 class="student-category-title">Undergraduates</h4>
+  <p class="empty-category">
+    Not listed
+  </p>
+  </div> -->
+  <!-- <div class="student-category">
+    <h4 class="student-category-title">Interns</h4>
+    <p class="empty-category">Not listed</p>
+  </div> -->
+</div>
+    <div class="student-status-block"><h3 class="student-status-title">Alumni</h3><div class="student-category"><h4 class="student-category-title">Master’s students</h4><ul class="simple-list"><li><a href="https://shionming.github.io/shiweiwu.github.io/">Shiwei Wu</a> (SYSU master student, 2023.06-2026.06, from 河北工业大学, now Ph.D. student @NUS, Intern @ Tsinghua Pervasive HCI Group)</li><li><a href="https://fanhaoxiang.top/">Haoxiang Fan</a> (SYSU master student, 2023.06-2026.06, from 暨南大学, now Ph.D. student @HKUST(GZ), Intern @ Tsinghua Pervasive HCI Group)</li><li>Shuailin Li (SYSU master student, since fall 2022, from 海南大学, Intern @ VIPS, Meituan, and Huawei, now job @ 百度)</li><li>Han Zhang (SYSU master student, since fall 2022, from 贵州大学, Intern @ ZHIPU AI, now job @ 同花顺)</li><li>Qiushi Han (SYSU master student, 2021 - 2024, from 福州大学), now @ 中国电信研究院(广州)</li></ul></div><div class="student-category"><h4 class="student-category-title">Undergraduates</h4><ul class="simple-list"><li>Yuheng Liu (SYSU undergraduate student, 2024.03 - 2026.05), now Ph.D. student @CityU HK</li><li>Qiaoyi Chen (SYSU undergraduate student, 2022.06 - 2024.06, now Ph.D. student @ HKUST HCI Lab)</li><li>Kangyu Yuan (SYSU undergraduate student, 2022.11 - 2024.06, now Ph.D. student @ HKUST HCI Lab)</li><li>Shilei Cao (SYSU undergraduate student, 2022.11 - 2023.06, now master student @ SYSU)</li><li>Hehai Lin (SYSU undergraduate student, 2022.11 - 2023.06, now Ph.D. student @ HKUST(GZ))</li><li>Tianjian Liu (SYSU undergraduate student, 2023.06 - 2024.11, now Ph.D. student @ HKUST(GZ))</li><li>Guanzheng Chen (SYSU undergraduate student, 2021.12 - 2024.06, now master student @ Zhejiang University)</li><li>Chenghan Xie (SYSU undergraduate student, 2021.12 - 2024.06, now master student @ HKU)</li><li>Xinyue Chen (SYSU undergraduate student, 2023.01 - 2024.09, now master student @ NUS)</li><li>Xiucheng Zhang (SYSU undergraduate student, 2023.11 - 2024.08, now master student @ NYU)</li><li>Zimo Xia (SYSU undergraduate student, 2023.11 - 2024.08, now master student @ NUS)</li><li>Qiyu Pan (SYSU undergraduate student, 2023.11 - 2024.10, now Ph.D. student @Tsinghua)</li></ul></div><div class="student-category"><h4 class="student-category-title">Interns</h4><ul class="simple-list"><li><a href="https://www.zhiqingwang.me/">Zhiqing Wang</a> (Research intern, 2024.05 - 2024.08, now puruing Ph.D.'s degree @ UCSD) </li><li>Tianze Xie (Research intern, 2022.04 - 2022.06, now pursuing Ph.D.'s degree @ SUSTech Immersive Design Group)</li><li>Haitong Chen (Research intern, 2023.03 - 2023.09, now Software Development Engineer @ Amazon)</li></ul></div></div></section>
+<section aria-labelledby="service-title" class="section simple-section" id="service"><h2 id="service-title">Service</h2><div class="type-group"><h3 class="type-label">Subcommunity Chair</h3><ul class="simple-list"><li>ACM Conference on Human Factors in Computing Systems (CHI) 2027
+                        </li></ul></div><div class="type-group"><h3 class="type-label">Associate Chair</h3><ul class="simple-list"><li>ACM Conference on Human Factors in Computing Systems (CHI) 2026, 2025, 2024, 2023
+                        </li><li>ACM Symposium on User Interface Software and Technology (UIST) 2025
+                        </li><li>ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW) 2024, 2023
+                        </li></ul></div><div class="type-group"><h3 class="type-label">Reviewer</h3><ul class="simple-list"><li>Transactions on Computer-Human Interaction (TOCHI), IJHCI, CHI 2022&amp;2021&amp;2020&amp;2018&amp;, CSCW 2025&amp;2022&amp;2021&amp;2020, UIST 2021, WWW 2020, CHILBW 2024&amp;2020, ChineseCHI 2022
+                        </li></ul></div></section>
+</main>
+<footer class="site-footer"><div class="shell footer-inner"><span>© 2026 Zhenhui Peng</span><a href="#top">Back to top ↑</a></div></footer>
+</body></html>
